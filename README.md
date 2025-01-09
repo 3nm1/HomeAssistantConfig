@@ -45,14 +45,14 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[commits-shield]: https://img.shields.io/github/commit-activity/y/3nm1/Home-AssistantConfig?style=for-the-badge
-[commits]: https://github.com/3nm1/Home-AssistantConfig/commits/master
-[contributors]: https://img.shields.io/github/contributors/3nm1/Home-AssistantConfig?style=for-the-badge
+[commits-shield]: https://img.shields.io/github/commit-activity/y/3nm1/HomeAssistantConfig?style=for-the-badge
+[commits]: https://github.com/3nm1/HomeAssistantConfig/commits/master
+[contributors]: https://img.shields.io/github/contributors/3nm1/HomeAssistantConfig?style=for-the-badge
 [3nm1]: https://github.com/3nm1
 [home-assistant]: https://home-assistant.io
-[license-shield]: https://img.shields.io/github/license/3nm1/Home-AssistantConfig?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/3nm1/HomeAssistantConfig?style=for-the-badge
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2025?style=for-the-badge
-[last-commit-shield]: https://img.shields.io/github/last-commit/3nm1/Home-AssistantConfig?style=for-the-badge
-[stars-shield]: https://img.shields.io/github/stars/3nm1/Home-AssistantConfig?style=social
-[forks-shield]: https://img.shields.io/github/forks/3nm1/Home-AssistantConfig?style=social
-[watchers-shield]: https://img.shields.io/github/watchers/3nm1/Home-AssistantConfig?style=social
+[last-commit-shield]: https://img.shields.io/github/last-commit/3nm1/HomeAssistantConfig?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/3nm1/HomeAssistantConfig?style=social
+[forks-shield]: https://img.shields.io/github/forks/3nm1/HomeAssistantConfig?style=social
+[watchers-shield]: https://img.shields.io/github/watchers/3nm1/HomeAssistantConfig?style=social
