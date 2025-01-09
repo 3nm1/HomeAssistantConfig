@@ -3,7 +3,7 @@
 ![Project Maintenance][maintenance-shield]
 [![License][license-shield]](LICENSE.md)
 
-
+[![GitHub Actions][actions-shield]][actions]
 [![GitHub Activity][commits-shield]][commits]
 [![GitHub Last Commit][last-commit-shield]][commits]
 
@@ -49,7 +49,10 @@ SOFTWARE.
 [commits]: https://github.com/3nm1/HomeAssistantConfig/commits/master
 [contributors]: https://img.shields.io/github/contributors/3nm1/HomeAssistantConfig?style=for-the-badge
 [3nm1]: https://github.com/3nm1
+[actions-shield]: https://github.com/3nm1/HomeAssistantConfig/workflows/Home%20Assistant%20CI/badge.svg
+[actions]: https://github.com/3nm1/HomeAssistantConfig/actions
 [home-assistant]: https://home-assistant.io
+[issue]: https://github.com/3nm1/HomeAssistantConfig/issues
 [license-shield]: https://img.shields.io/github/license/3nm1/HomeAssistantConfig?style=for-the-badge
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2025?style=for-the-badge
 [last-commit-shield]: https://img.shields.io/github/last-commit/3nm1/HomeAssistantConfig?style=for-the-badge
