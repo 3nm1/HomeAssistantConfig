@@ -103,7 +103,7 @@
         "access_token_expiration": 1800.0,
         "token": "32810313fa5d9b6f5fd79ec4fb1f7f650b74aba10d6850fbef2128ecfa902b31a3a3e242eb968928666dedd1541ae965ea754563759804cf35c49e399bf03a82",
         "jwt_key": "3ac5866771d509e34fd142082562111c30ab980e4ca14df007f3911376d1d52b223bee53cc37b1f5a9dc923b3d372d488e1e2defd171780b6f3876e4e8a4bac4",
-        "last_used_at": "2025-01-09T13:20:58.731967+00:00",
+        "last_used_at": "2025-01-09T14:20:59.438308+00:00",
         "last_used_ip": "172.30.32.2",
         "expire_at": null,
         "credential_id": null,
@@ -171,9 +171,9 @@
         "access_token_expiration": 1800.0,
         "token": "1205bf5597fd85af6f08b10c320a0f52254eebd890d45f693faab72165002a9525ed033936c3b4654bc5884bd26e47bc077b584b94639ca999c321da7c1ddf83",
         "jwt_key": "cf5197f697ff348ec9453936f3adc4f01e62b8dbec4a65ca970f2d02da287f0d828211c6f8ba65883ee3cfe369d2ab1eed47829ce49160e193be4bae21843b1b",
-        "last_used_at": "2025-01-09T06:13:53.560811+00:00",
-        "last_used_ip": "192.168.80.197",
-        "expire_at": 1744179233.560811,
+        "last_used_at": "2025-01-09T13:45:32.717810+00:00",
+        "last_used_ip": "10.10.10.3",
+        "expire_at": 1744206332.71781,
         "credential_id": "33224c6fd2cb4dc6816e9e77b34fc185",
         "version": "2025.1.1"
       },
@@ -192,6 +192,23 @@
         "last_used_ip": "10.10.10.4",
         "expire_at": 1744205648.489203,
         "credential_id": "33224c6fd2cb4dc6816e9e77b34fc185",
+        "version": "2025.1.1"
+      },
+      {
+        "id": "2d9cb777d6ca49d2af80d0ed70ab7575",
+        "user_id": "4d84071e1964407a8255d23037741304",
+        "client_id": null,
+        "client_name": "Studio Code Server",
+        "client_icon": null,
+        "token_type": "long_lived_access_token",
+        "created_at": "2025-01-09T14:10:45.494725+00:00",
+        "access_token_expiration": 315360000.0,
+        "token": "97f79a88de4ae0569d2ce80a50a4d3a73a55716b8ff23a481acd4abb83792a612550816da20b4596e461c804de1a385c19e10282bdc926b9223cc87e2f632819",
+        "jwt_key": "4e924bc8fbf8130af9242bf92e48cb3ce06a24de30255728b623447a9f61f5d973ff5e2d3152fc41a313e63ed2d6a71b75f24f2f2a3c3ecd0ae84f71ac338ba7",
+        "last_used_at": "2025-01-09T14:10:45.494879+00:00",
+        "last_used_ip": null,
+        "expire_at": null,
+        "credential_id": null,
         "version": "2025.1.1"
       }
     ]

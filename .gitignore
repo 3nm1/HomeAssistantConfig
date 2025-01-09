@@ -11,17 +11,13 @@ __pycache__
 # Directory (contents) ignores
 .cloud
 .storage
-.google.token
-.ssh
 deps
-scripts
 
 # Specific file ignores
 core
 image
 ip_bans.yaml
 secrets.yaml
-known_devices.yaml
 
 # Build-in blueprints ignores
 blueprints/*/homeassistant
@@ -45,7 +41,6 @@ themes
 www/community
 
 # Specific keeps
-#!custom_components/telegram_bot_conversation
 !.gitkeep
 
 # Temporary ignores

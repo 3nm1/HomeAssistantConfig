@@ -12,6 +12,15 @@
         "icon": "mdi:map-marker",
         "passive": false,
         "radius": 100.0
+      },
+      {
+        "id": "jobb",
+        "latitude": 56.979835682383275,
+        "longitude": 16.32799029350281,
+        "name": "Jobb",
+        "icon": "mdi:map-marker",
+        "passive": false,
+        "radius": 100.0
       }
     ]
   }
