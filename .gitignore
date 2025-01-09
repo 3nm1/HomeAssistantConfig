@@ -25,6 +25,9 @@ blueprints/*/homeassistant
 # ESPHome ignores
 esphome/.*/
 
+# TTS ignores
+tts/.*/
+
 # Ignore add-on files
 aircast.xml
 airsonos.xml
