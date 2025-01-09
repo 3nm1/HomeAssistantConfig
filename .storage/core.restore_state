@@ -1,0 +1,561 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.restore_state",
+  "data": [
+    {
+      "state": {"entity_id":"conversation.home_assistant","state":"unknown","attributes":{"friendly_name":"Home Assistant","supported_features":1},"last_changed":"2025-01-08T18:20:37.334817+00:00","last_reported":"2025-01-08T18:20:37.334817+00:00","last_updated":"2025-01-08T18:20:37.334817+00:00","context":{"id":"01JH3JB9JP67936W31T18Q472D","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"person.mikael_engstrom","state":"unknown","attributes":{"editable":true,"id":"mikael_engstrom","device_trackers":["device_tracker.mikaels_iphone"],"user_id":"4d84071e1964407a8255d23037741304","friendly_name":"Mikael Engström"},"last_changed":"2025-01-08T18:21:05.826578+00:00","last_reported":"2025-01-08T20:57:57.880130+00:00","last_updated":"2025-01-08T20:57:57.871390+00:00","context":{"id":"01JH3VBCVFFKVMSJHG13BZ3YM9","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"tts.google_translate_en_com","state":"2025-01-08T20:23:09.215335+00:00","attributes":{"friendly_name":"Google Translate en com"},"last_changed":"2025-01-08T20:23:09.215509+00:00","last_reported":"2025-01-08T20:23:09.215509+00:00","last_updated":"2025-01-08T20:23:09.215509+00:00","context":{"id":"01JH3SBN4ZG07553R9YNMWP2NM","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"update.bokhylla_hoger_firmware","state":"unknown","attributes":{"auto_update":false,"display_precision":2,"installed_version":"0x23068631","in_progress":false,"latest_version":null,"release_summary":null,"release_url":null,"skipped_version":null,"title":null,"update_percentage":null,"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/zha/icon.png","friendly_name":"Bokhylla höger Firmware","supported_features":23},"last_changed":"2025-01-08T22:23:26.676478+00:00","last_reported":"2025-01-08T22:23:26.676478+00:00","last_updated":"2025-01-08T22:23:26.676478+00:00","context":{"id":"01JH407XEMW6GA7XM3G6V0QHZF","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"button.bokhylla_hoger_identifiera","state":"unknown","attributes":{"device_class":"identify","friendly_name":"Bokhylla höger Identifiera"},"last_changed":"2025-01-08T18:46:09.521257+00:00","last_reported":"2025-01-08T18:46:09.521257+00:00","last_updated":"2025-01-08T18:46:09.521257+00:00","context":{"id":"01JH3KT1VHVZB3NAB7XNDQYBY5","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"light.bokhylla_hoger_lampa","state":"off","attributes":{"supported_color_modes":["brightness"],"color_mode":null,"brightness":null,"off_with_transition":false,"off_brightness":76,"friendly_name":"Bokhylla höger Lampa","supported_features":40},"last_changed":"2025-01-09T06:14:01.934386+00:00","last_reported":"2025-01-09T06:14:01.934748+00:00","last_updated":"2025-01-09T06:14:01.934386+00:00","context":{"id":"01JH4V5JV1TY6W6CFTA53ARG2W","parent_id":null,"user_id":"4d84071e1964407a8255d23037741304"}},
+      "extra_data": null,
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"number.bokhylla_hoger_niva_vid_paslag","state":"255","attributes":{"min":0,"max":255,"step":1.0,"mode":"auto","friendly_name":"Bokhylla höger Nivå vid påslag"},"last_changed":"2025-01-08T18:46:09.541230+00:00","last_reported":"2025-01-08T18:46:09.541230+00:00","last_updated":"2025-01-08T18:46:09.541230+00:00","context":{"id":"01JH3KT1W5SNC6E6AA9BREH2MR","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_max_value": 255,
+        "native_min_value": 0,
+        "native_step": 1.0,
+        "native_unit_of_measurement": null,
+        "native_value": 255
+      },
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"number.bokhylla_hoger_niva_vid_start","state":"255","attributes":{"min":0,"max":255,"step":1.0,"mode":"auto","friendly_name":"Bokhylla höger Nivå vid start"},"last_changed":"2025-01-08T18:46:09.550820+00:00","last_reported":"2025-01-08T18:46:09.550820+00:00","last_updated":"2025-01-08T18:46:09.550820+00:00","context":{"id":"01JH3KT1WER4KM8007FWR0BAJT","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_max_value": 255,
+        "native_min_value": 0,
+        "native_step": 1.0,
+        "native_unit_of_measurement": null,
+        "native_value": 255
+      },
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"select.bokhylla_hoger_uppstartsbeteende","state":"On","attributes":{"options":["Off","On","Toggle","PreviousValue"],"friendly_name":"Bokhylla höger Uppstartsbeteende"},"last_changed":"2025-01-08T18:46:09.557739+00:00","last_reported":"2025-01-08T18:46:09.557739+00:00","last_updated":"2025-01-08T18:46:09.557739+00:00","context":{"id":"01JH3KT1WNTB69Y5XGT57VX3CA","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"number.bokhylla_hoger_overgangstid_vid_vaxling","state":"5","attributes":{"min":0,"max":65535,"step":1.0,"mode":"auto","friendly_name":"Bokhylla höger Övergångstid vid växling"},"last_changed":"2025-01-08T18:46:09.564740+00:00","last_reported":"2025-01-08T18:46:09.564740+00:00","last_updated":"2025-01-08T18:46:09.564740+00:00","context":{"id":"01JH3KT1WWZJKCEW5K1BHS330S","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_max_value": 65535,
+        "native_min_value": 0,
+        "native_step": 1.0,
+        "native_unit_of_measurement": null,
+        "native_value": 5
+      },
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"switch.vu_1_brytare","state":"off","attributes":{"friendly_name":"VU 1 Brytare"},"last_changed":"2025-01-09T06:14:16.143371+00:00","last_reported":"2025-01-09T06:14:16.143705+00:00","last_updated":"2025-01-09T06:14:16.143371+00:00","context":{"id":"01JH4V60Q387F1G2NNG5YD5ZF2","parent_id":null,"user_id":"4d84071e1964407a8255d23037741304"}},
+      "extra_data": null,
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"update.vu_1_firmware","state":"unknown","attributes":{"auto_update":false,"display_precision":2,"installed_version":"0x20024623","in_progress":false,"latest_version":null,"release_summary":null,"release_url":null,"skipped_version":null,"title":null,"update_percentage":null,"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/zha/icon.png","friendly_name":"VU 1 Firmware","supported_features":23},"last_changed":"2025-01-08T18:48:29.359101+00:00","last_reported":"2025-01-08T18:48:29.359101+00:00","last_updated":"2025-01-08T18:48:29.359101+00:00","context":{"id":"01JH3KYADF25GDWVTKDNW5G69Y","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"button.vu_1_identifiera","state":"unknown","attributes":{"device_class":"identify","friendly_name":"VU 1 Identifiera"},"last_changed":"2025-01-08T18:48:29.365708+00:00","last_reported":"2025-01-08T18:48:29.365708+00:00","last_updated":"2025-01-08T18:48:29.365708+00:00","context":{"id":"01JH3KYADN3S58B1Y6P2F05ZH9","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"select.vu_1_uppstartsbeteende","state":"PreviousValue","attributes":{"options":["Off","On","Toggle","PreviousValue"],"friendly_name":"VU 1 Uppstartsbeteende"},"last_changed":"2025-01-08T18:48:29.373612+00:00","last_reported":"2025-01-08T18:48:29.373612+00:00","last_updated":"2025-01-08T18:48:29.373612+00:00","context":{"id":"01JH3KYADXHH3618EB5Z62HPWS","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"update.bokhylla_vanster_firmware","state":"unknown","attributes":{"auto_update":false,"display_precision":2,"installed_version":"0x23068631","in_progress":false,"latest_version":null,"release_summary":null,"release_url":null,"skipped_version":null,"title":null,"update_percentage":null,"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/zha/icon.png","friendly_name":"Bokhylla vänster Firmware","supported_features":23},"last_changed":"2025-01-08T18:53:56.222881+00:00","last_reported":"2025-01-08T18:53:56.222881+00:00","last_updated":"2025-01-08T18:53:56.222881+00:00","context":{"id":"01JH3M89KYY5XTG381MD8ESDYK","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"button.bokhylla_vanster_identifiera","state":"unknown","attributes":{"device_class":"identify","friendly_name":"Bokhylla vänster Identifiera"},"last_changed":"2025-01-08T18:50:20.787532+00:00","last_reported":"2025-01-08T18:50:20.787532+00:00","last_updated":"2025-01-08T18:50:20.787532+00:00","context":{"id":"01JH3M1Q7KP87X8B08QN3AG7PE","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"light.bokhylla_vanster_lampa","state":"off","attributes":{"supported_color_modes":["brightness"],"color_mode":null,"brightness":null,"off_with_transition":false,"off_brightness":76,"friendly_name":"Bokhylla vänster Lampa","supported_features":40},"last_changed":"2025-01-09T06:14:03.765906+00:00","last_reported":"2025-01-09T06:14:03.766325+00:00","last_updated":"2025-01-09T06:14:03.765906+00:00","context":{"id":"01JH4V5MKKB90N14D9WCAZMYS4","parent_id":null,"user_id":"4d84071e1964407a8255d23037741304"}},
+      "extra_data": null,
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"number.bokhylla_vanster_niva_vid_paslag","state":"255","attributes":{"min":0,"max":255,"step":1.0,"mode":"auto","friendly_name":"Bokhylla vänster Nivå vid påslag"},"last_changed":"2025-01-08T18:50:20.809939+00:00","last_reported":"2025-01-08T18:50:20.809939+00:00","last_updated":"2025-01-08T18:50:20.809939+00:00","context":{"id":"01JH3M1Q89R96RGHY58E6WATYK","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_max_value": 255,
+        "native_min_value": 0,
+        "native_step": 1.0,
+        "native_unit_of_measurement": null,
+        "native_value": 255
+      },
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"number.bokhylla_vanster_niva_vid_start","state":"255","attributes":{"min":0,"max":255,"step":1.0,"mode":"auto","friendly_name":"Bokhylla vänster Nivå vid start"},"last_changed":"2025-01-08T18:50:20.817345+00:00","last_reported":"2025-01-08T18:50:20.817345+00:00","last_updated":"2025-01-08T18:50:20.817345+00:00","context":{"id":"01JH3M1Q8H1VD6Z3JFJM88PFX9","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_max_value": 255,
+        "native_min_value": 0,
+        "native_step": 1.0,
+        "native_unit_of_measurement": null,
+        "native_value": 255
+      },
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"select.bokhylla_vanster_uppstartsbeteende","state":"On","attributes":{"options":["Off","On","Toggle","PreviousValue"],"friendly_name":"Bokhylla vänster Uppstartsbeteende"},"last_changed":"2025-01-08T18:50:20.825305+00:00","last_reported":"2025-01-08T18:50:20.825305+00:00","last_updated":"2025-01-08T18:50:20.825305+00:00","context":{"id":"01JH3M1Q8SQBNQHAR880ZMTR1C","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"number.bokhylla_vanster_overgangstid_vid_vaxling","state":"5","attributes":{"min":0,"max":65535,"step":1.0,"mode":"auto","friendly_name":"Bokhylla vänster Övergångstid vid växling"},"last_changed":"2025-01-08T18:50:20.833205+00:00","last_reported":"2025-01-08T18:50:20.833205+00:00","last_updated":"2025-01-08T18:50:20.833205+00:00","context":{"id":"01JH3M1Q91B8HT5F2YEQM2RM1D","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_max_value": 65535,
+        "native_min_value": 0,
+        "native_step": 1.0,
+        "native_unit_of_measurement": null,
+        "native_value": 5
+      },
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.rorelsesensor_batteri","state":"100","attributes":{"state_class":"measurement","battery_size":"CR2032","battery_voltage":3.0,"battery_quantity":2,"unit_of_measurement":"%","device_class":"battery","friendly_name":"Rörelsesensor Batteri"},"last_changed":"2025-01-09T06:11:31.620380+00:00","last_reported":"2025-01-09T06:11:31.620380+00:00","last_updated":"2025-01-09T06:11:31.620380+00:00","context":{"id":"01JH4V1054JXZYYAR1AD51E4XS","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"update.rorelsesensor_firmware","state":"unknown","attributes":{"auto_update":false,"display_precision":2,"installed_version":"0x20022623","in_progress":false,"latest_version":null,"release_summary":null,"release_url":null,"skipped_version":null,"title":null,"update_percentage":null,"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/zha/icon.png","friendly_name":"Rörelsesensor Firmware","supported_features":23},"last_changed":"2025-01-09T06:11:30.559636+00:00","last_reported":"2025-01-09T06:11:30.559636+00:00","last_updated":"2025-01-09T06:11:30.559636+00:00","context":{"id":"01JH4V0Z3Z43NCC2MS0A7SGDZ6","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"button.rorelsesensor_identifiera","state":"unknown","attributes":{"device_class":"identify","friendly_name":"Rörelsesensor Identifiera"},"last_changed":"2025-01-09T06:11:34.723608+00:00","last_reported":"2025-01-09T06:11:34.723608+00:00","last_updated":"2025-01-09T06:11:34.723608+00:00","context":{"id":"01JH4V136390G87R3M0FQ4ZF4G","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"binary_sensor.rorelsesensor_rorelse","state":"off","attributes":{"device_class":"motion","friendly_name":"Rörelsesensor Rörelse"},"last_changed":"2025-01-09T06:11:34.723081+00:00","last_reported":"2025-01-09T06:11:34.723081+00:00","last_updated":"2025-01-09T06:11:34.723081+00:00","context":{"id":"01JH4V1363AVSVY1Z8AQTWBRMN","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.av_pa_knapp_batteri","state":"unavailable","attributes":{"state_class":"measurement","unit_of_measurement":"%","device_class":"battery","friendly_name":"AV/PÅ knapp Batteri"},"last_changed":"2025-01-09T01:16:39.014521+00:00","last_reported":"2025-01-09T01:16:39.014521+00:00","last_updated":"2025-01-09T01:16:39.014521+00:00","context":{"id":"01JH4A5276MBQ7K29C6CSTCFKP","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"update.av_pa_knapp_firmware","state":"unavailable","attributes":{"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/zha/icon.png","friendly_name":"AV/PÅ knapp Firmware","supported_features":23},"last_changed":"2025-01-09T01:16:39.019864+00:00","last_reported":"2025-01-09T01:16:39.019864+00:00","last_updated":"2025-01-09T01:16:39.019864+00:00","context":{"id":"01JH4A527BM7K9STMMYM5TE802","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"button.av_pa_knapp_identifiera","state":"unavailable","attributes":{"device_class":"identify","friendly_name":"AV/PÅ knapp Identifiera"},"last_changed":"2025-01-09T01:16:39.013381+00:00","last_reported":"2025-01-09T01:16:39.013381+00:00","last_updated":"2025-01-09T01:16:39.013381+00:00","context":{"id":"01JH4A5275DP8R28VHXS4BNK4H","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"device_tracker.mikaels_iphone","state":"unknown","attributes":{"source_type":"gps","friendly_name":"Mikaels iPhone"},"last_changed":"2025-01-08T20:57:57.876920+00:00","last_reported":"2025-01-08T20:57:57.876920+00:00","last_updated":"2025-01-08T20:57:57.876920+00:00","context":{"id":"01JH3VBCVM2ES6X5YQF8V42PAJ","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.mikaels_iphone_activity","state":"Automotive","attributes":{"Confidence":"High","Types":["Automotive"],"icon":"mdi:car","friendly_name":"Mikaels iPhone Activity"},"last_changed":"2025-01-09T06:46:07.174346+00:00","last_reported":"2025-01-09T06:46:07.174346+00:00","last_updated":"2025-01-09T06:46:07.174346+00:00","context":{"id":"01JH4X0B26RPS66VF429K4FVEV","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Automotive",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.mikaels_iphone_floors_descended","state":"0","attributes":{"unit_of_measurement":"floors","icon":"mdi:stairs-down","friendly_name":"Mikaels iPhone Floors Descended"},"last_changed":"2025-01-08T23:24:31.594151+00:00","last_reported":"2025-01-08T23:24:31.594151+00:00","last_updated":"2025-01-08T23:24:31.594151+00:00","context":{"id":"01JH43QRFA9CSAFX543ZG67ZCZ","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 0,
+        "native_unit_of_measurement": "floors"
+      },
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.mikaels_iphone_battery_state","state":"Charging","attributes":{"Low Power Mode":false,"icon":"mdi:battery-charging-60","friendly_name":"Mikaels iPhone Battery State"},"last_changed":"2025-01-09T06:45:50.488229+00:00","last_reported":"2025-01-09T06:46:07.176922+00:00","last_updated":"2025-01-09T06:45:50.488229+00:00","context":{"id":"01JH4WZTRRFVV0T6QG00F1P4MR","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Charging",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.mikaels_iphone_distance","state":"31","attributes":{"unit_of_measurement":"m","icon":"mdi:hiking","friendly_name":"Mikaels iPhone Distance"},"last_changed":"2025-01-09T06:46:07.174850+00:00","last_reported":"2025-01-09T06:46:07.174850+00:00","last_updated":"2025-01-09T06:46:07.174850+00:00","context":{"id":"01JH4X0B26XET770AY2P5GB183","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 31,
+        "native_unit_of_measurement": "m"
+      },
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.mikaels_iphone_battery_level","state":"75","attributes":{"unit_of_measurement":"%","device_class":"battery","icon":"mdi:battery-charging-60","friendly_name":"Mikaels iPhone Battery Level"},"last_changed":"2025-01-09T06:09:42.361756+00:00","last_reported":"2025-01-09T06:46:07.176575+00:00","last_updated":"2025-01-09T06:45:50.487200+00:00","context":{"id":"01JH4WZTRQT3YNNXV57WX8PQCN","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 75,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.mikaels_iphone_floors_ascended","state":"0","attributes":{"unit_of_measurement":"floors","icon":"mdi:stairs-up","friendly_name":"Mikaels iPhone Floors Ascended"},"last_changed":"2025-01-08T23:24:31.593851+00:00","last_reported":"2025-01-08T23:24:31.593851+00:00","last_updated":"2025-01-08T23:24:31.593851+00:00","context":{"id":"01JH43QRF9Z7PMKF4H69AJ75QM","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 0,
+        "native_unit_of_measurement": "floors"
+      },
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.mikaels_iphone_storage","state":"19.77","attributes":{"Available":"10,02 GB","Available (Important)":"17,49 GB","Available (Opportunistic)":"12,64 GB","Total":"63,97 GB","unit_of_measurement":"% available","icon":"mdi:database","friendly_name":"Mikaels iPhone Storage"},"last_changed":"2025-01-09T06:46:07.177510+00:00","last_reported":"2025-01-09T06:46:07.177510+00:00","last_updated":"2025-01-09T06:46:07.177510+00:00","context":{"id":"01JH4X0B2926S9NK3A3Y33BRWN","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "19.77",
+        "native_unit_of_measurement": "% available"
+      },
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.mikaels_iphone_steps","state":"42","attributes":{"unit_of_measurement":"steps","icon":"mdi:walk","friendly_name":"Mikaels iPhone Steps"},"last_changed":"2025-01-09T06:46:07.175883+00:00","last_reported":"2025-01-09T06:46:07.175883+00:00","last_updated":"2025-01-09T06:46:07.175883+00:00","context":{"id":"01JH4X0B27GRZVQ32JM7A12N54","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 42,
+        "native_unit_of_measurement": "steps"
+      },
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.mikaels_iphone_average_active_pace","state":"2","attributes":{"unit_of_measurement":"m/s","icon":"mdi:speedometer","friendly_name":"Mikaels iPhone Average Active Pace"},"last_changed":"2025-01-09T06:44:52.194320+00:00","last_reported":"2025-01-09T06:46:07.176242+00:00","last_updated":"2025-01-09T06:44:52.194320+00:00","context":{"id":"01JH4WY1V2SAXV7J1X5RARPD7P","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": 2,
+        "native_unit_of_measurement": "m/s"
+      },
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.mikaels_iphone_ssid","state":"Not Connected","attributes":{"icon":"mdi:wifi-off","friendly_name":"Mikaels iPhone SSID"},"last_changed":"2025-01-09T06:18:38.375204+00:00","last_reported":"2025-01-09T06:18:38.375204+00:00","last_updated":"2025-01-09T06:18:38.375204+00:00","context":{"id":"01JH4VE0X7AC2J4BNJBMSCQ3CS","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Not Connected",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.mikaels_iphone_bssid","state":"Not Connected","attributes":{"icon":"mdi:wifi-off","friendly_name":"Mikaels iPhone BSSID"},"last_changed":"2025-01-09T06:18:38.375567+00:00","last_reported":"2025-01-09T06:18:38.375567+00:00","last_updated":"2025-01-09T06:18:38.375567+00:00","context":{"id":"01JH4VE0X7Z5XXGJQ20J755A54","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Not Connected",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.mikaels_iphone_connection_type","state":"Wi-Fi","attributes":{"icon":"mdi:wifi","friendly_name":"Mikaels iPhone Connection Type"},"last_changed":"2025-01-08T20:57:58.310636+00:00","last_reported":"2025-01-08T20:57:59.763093+00:00","last_updated":"2025-01-08T20:57:58.310636+00:00","context":{"id":"01JH3VBD960B4SKXBQJC17WN1T","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Wi-Fi",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.mikaels_iphone_sim_1","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000001","Carrier Name":"--","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"Mikaels iPhone SIM 1"},"last_changed":"2025-01-08T20:57:58.313624+00:00","last_reported":"2025-01-08T20:57:59.763427+00:00","last_updated":"2025-01-08T20:57:58.313624+00:00","context":{"id":"01JH3VBD99427CZQZ6YTR5QYJ6","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "--",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.mikaels_iphone_sim_2","state":"--","attributes":{"Allows VoIP":true,"Carrier ID":"0000000100000002","Carrier Name":"--","Current Radio Technology":"Long-Term Evolution (LTE)","ISO Country Code":"--","Mobile Country Code":"65535","Mobile Network Code":"65535","icon":"mdi:sim","friendly_name":"Mikaels iPhone SIM 2"},"last_changed":"2025-01-08T20:57:58.318178+00:00","last_reported":"2025-01-08T20:57:59.763761+00:00","last_updated":"2025-01-08T20:57:58.318178+00:00","context":{"id":"01JH3VBD9EH34ZAHM0P8CQTQ9G","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "--",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.mikaels_iphone_geocoded_location","state":"Unknown","attributes":{"icon":"mdi:map","friendly_name":"Mikaels iPhone Geocoded Location"},"last_changed":"2025-01-08T20:57:58.320805+00:00","last_reported":"2025-01-08T20:57:58.321254+00:00","last_updated":"2025-01-08T20:57:58.320805+00:00","context":{"id":"01JH3VBD9G5VJHA82TFZPWPHK4","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Unknown",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"binary_sensor.mikaels_iphone_focus","state":"off","attributes":{"icon":"mdi:moon-waning-crescent","friendly_name":"Mikaels iPhone Focus"},"last_changed":"2025-01-09T06:13:54.069420+00:00","last_reported":"2025-01-09T06:13:59.449296+00:00","last_updated":"2025-01-09T06:13:54.069420+00:00","context":{"id":"01JH4V5B8NNC37AW9QYDMG7WS2","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.mikaels_iphone_last_update_trigger","state":"Signaled","attributes":{"icon":"mdi:cellphone-wireless","friendly_name":"Mikaels iPhone Last Update Trigger"},"last_changed":"2025-01-09T06:45:50.491653+00:00","last_reported":"2025-01-09T06:46:07.179587+00:00","last_updated":"2025-01-09T06:45:50.491653+00:00","context":{"id":"01JH4WZTRV9E10W9A3EQDC6X4C","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Signaled",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.mikaels_iphone_app_version","state":"2024.12.2","attributes":{"icon":"mdi:cellphone","friendly_name":"Mikaels iPhone App Version"},"last_changed":"2025-01-08T20:57:58.386041+00:00","last_reported":"2025-01-08T20:57:59.764817+00:00","last_updated":"2025-01-08T20:57:58.386041+00:00","context":{"id":"01JH3VBDBJJA0GT48KAM0VMZ11","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "2024.12.2",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.mikaels_iphone_location_permission","state":"Authorized when in use","attributes":{"icon":"mdi:map","friendly_name":"Mikaels iPhone Location permission"},"last_changed":"2025-01-08T20:57:58.388606+00:00","last_reported":"2025-01-08T20:57:59.765206+00:00","last_updated":"2025-01-08T20:57:58.388606+00:00","context":{"id":"01JH3VBDBMDE1C2CF2YDQYMVFJ","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "Authorized when in use",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.mikaels_iphone_audio_output","state":"CarPlay","attributes":{"icon":"mdi:volume-high","friendly_name":"Mikaels iPhone Audio Output"},"last_changed":"2025-01-09T06:46:07.182598+00:00","last_reported":"2025-01-09T06:46:07.182598+00:00","last_updated":"2025-01-09T06:46:07.182598+00:00","context":{"id":"01JH4X0B2EHRMF9S4TRMZKAG6E","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "CarPlay",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"update.home_assistant_supervisor_update","state":"off","attributes":{"auto_update":true,"display_precision":0,"installed_version":"2024.12.3","in_progress":false,"latest_version":"2024.12.3","release_summary":null,"release_url":"https://github.com/home-assistant/supervisor/releases/tag/2024.12.3","skipped_version":null,"title":"Home Assistant Supervisor","update_percentage":null,"entity_picture":"https://brands.home-assistant.io/hassio/icon.png","friendly_name":"Home Assistant Supervisor Update","supported_features":1},"last_changed":"2025-01-09T08:55:37.691988+00:00","last_reported":"2025-01-09T09:05:37.625921+00:00","last_updated":"2025-01-09T08:55:37.691988+00:00","context":{"id":"01JH54DFEVENA91KHHRY68RFJ4","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"update.home_assistant_core_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"2025.1.1","in_progress":false,"latest_version":"2025.1.1","release_summary":null,"release_url":"https://www.home-assistant.io/latest-release-notes/","skipped_version":null,"title":"Home Assistant Core","update_percentage":null,"entity_picture":"https://brands.home-assistant.io/homeassistant/icon.png","friendly_name":"Home Assistant Core Update","supported_features":11},"last_changed":"2025-01-09T08:55:37.692857+00:00","last_reported":"2025-01-09T09:05:37.626251+00:00","last_updated":"2025-01-09T08:55:37.692857+00:00","context":{"id":"01JH54DFEW54GDSYV1F8ZGN4P1","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"update.esphome_device_builder_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"2024.12.2","in_progress":false,"latest_version":"2024.12.2","release_summary":"## 2024.12.2\n\n- [esp32] Fix flash size warning when using IDF [esphome#7983](https://github.com/esphome/esphome/pull/7983) by [@kbx81](https://github.com/kbx81)\n- [esp32_ble] Fix for Improv [esphome#7984](https://github.com/esphome/esphome/pull/7984) by [","release_url":null,"skipped_version":null,"title":"ESPHome Device Builder","update_percentage":null,"entity_picture":"/api/hassio/addons/5c53de3b_esphome/icon","friendly_name":"ESPHome Device Builder Update","supported_features":25},"last_changed":"2025-01-09T08:55:37.693518+00:00","last_reported":"2025-01-09T09:05:37.626372+00:00","last_updated":"2025-01-09T08:55:37.693518+00:00","context":{"id":"01JH54DFEXA0SEATY58CTD0366","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"update.studio_code_server_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"5.18.0","in_progress":false,"latest_version":"5.18.0","release_summary":"## What’s changed\n\n## ⬆️ Dependency updates\n\n- ⬆️ Update esphome to v2024.10.3 @renovate ([#895](https://github.com/hassio-addons/addon-vscode/pull/895))\n- ⬆️ Update debian_12/openssl to v3.0.15-1~deb12u1 @renovate ([#897](https://github.com/hassio-addons","release_url":null,"skipped_version":null,"title":"Studio Code Server","update_percentage":null,"entity_picture":"/api/hassio/addons/a0d7b954_vscode/icon","friendly_name":"Studio Code Server Update","supported_features":25},"last_changed":"2025-01-09T08:55:37.694549+00:00","last_reported":"2025-01-09T09:05:37.626470+00:00","last_updated":"2025-01-09T08:55:37.694549+00:00","context":{"id":"01JH54DFEY1A8S33CMYHBVKGBF","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"update.home_assistant_operating_system_update","state":"off","attributes":{"auto_update":false,"display_precision":0,"installed_version":"14.1","in_progress":false,"latest_version":"14.1","release_summary":null,"release_url":"https://github.com/home-assistant/operating-system/releases/tag/14.1","skipped_version":null,"title":"Home Assistant Operating System","update_percentage":null,"entity_picture":"https://brands.home-assistant.io/homeassistant/icon.png","friendly_name":"Home Assistant Operating System Update","supported_features":3},"last_changed":"2025-01-09T08:55:37.697634+00:00","last_reported":"2025-01-09T09:05:37.626672+00:00","last_updated":"2025-01-09T08:55:37.697634+00:00","context":{"id":"01JH54DFF1GH5YC8JZ7EW2MMNK","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"button.pve2_plex_k80_skanna_klienter","state":"unknown","attributes":{"friendly_name":"pve2-plex-K80 Skanna klienter"},"last_changed":"2025-01-09T10:44:42.383365+00:00","last_reported":"2025-01-09T10:44:42.384088+00:00","last_updated":"2025-01-09T10:44:42.383365+00:00","context":{"id":"01JH5AN6RF9VFC77SJKYK97ZQR","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"update.plex_media_server_pve2_plex_k80","state":"on","attributes":{"auto_update":false,"display_precision":0,"installed_version":"1.41.2.9200-c6bbc1b53","in_progress":false,"latest_version":"1.41.3.9314-a0bfb8370","release_summary":null,"release_url":null,"skipped_version":null,"title":null,"update_percentage":null,"entity_picture":"https://brands.home-assistant.io/_/plex/icon.png","friendly_name":"Plex Media Server (pve2-plex-K80)","supported_features":16},"last_changed":"2025-01-09T10:44:42.499548+00:00","last_reported":"2025-01-09T10:44:42.500590+00:00","last_updated":"2025-01-09T10:44:42.499548+00:00","context":{"id":"01JH5AN6W3R8QYSR69KWJVZJ1H","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-09T10:50:38.252039+00:00"
+    },
+    {
+      "state": {"entity_id":"update.ikea_of_sweden_tradfri_driver_10w_firmware","state":"off","attributes":{"auto_update":false,"display_precision":2,"installed_version":"0x23068631","in_progress":false,"latest_version":"0x23068631","release_summary":null,"release_url":null,"skipped_version":null,"title":null,"update_percentage":null,"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/zha/icon.png","friendly_name":"Bokhylla vänster Firmware","supported_features":23},"last_changed":"2025-01-08T18:50:02.294461+00:00","last_reported":"2025-01-08T18:50:20.750142+00:00","last_updated":"2025-01-08T18:50:20.750142+00:00","context":{"id":"01JH3M1Q6EYAG9WCCN869X2R4Z","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-08T18:50:20.770172+00:00"
+    },
+    {
+      "state": {"entity_id":"button.ikea_of_sweden_tradfri_driver_10w_identifiera","state":"unknown","attributes":{"device_class":"identify","friendly_name":"Bokhylla vänster Identifiera"},"last_changed":"2025-01-08T18:50:02.313175+00:00","last_reported":"2025-01-08T18:50:20.750568+00:00","last_updated":"2025-01-08T18:50:20.750568+00:00","context":{"id":"01JH3M1Q6EC6Q7CHEAKDG8BJJW","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-08T18:50:20.781722+00:00"
+    },
+    {
+      "state": {"entity_id":"light.ikea_of_sweden_tradfri_driver_10w_lampa","state":"on","attributes":{"supported_color_modes":["brightness"],"color_mode":"brightness","brightness":254,"off_with_transition":false,"off_brightness":null,"friendly_name":"Bokhylla vänster Lampa","supported_features":40},"last_changed":"2025-01-08T18:50:02.326981+00:00","last_reported":"2025-01-08T18:50:20.751051+00:00","last_updated":"2025-01-08T18:50:20.751051+00:00","context":{"id":"01JH3M1Q6F8SWA5VMDR0PFXPSV","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-08T18:50:20.789430+00:00"
+    },
+    {
+      "state": {"entity_id":"number.ikea_of_sweden_tradfri_driver_10w_niva_vid_paslag","state":"255","attributes":{"min":0,"max":255,"step":1.0,"mode":"auto","friendly_name":"Bokhylla vänster Nivå vid påslag"},"last_changed":"2025-01-08T18:50:02.247833+00:00","last_reported":"2025-01-08T18:50:20.749360+00:00","last_updated":"2025-01-08T18:50:20.749360+00:00","context":{"id":"01JH3M1Q6DJFFJ6V88WFP59Z4C","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_max_value": 255,
+        "native_min_value": 0,
+        "native_step": 1.0,
+        "native_unit_of_measurement": null,
+        "native_value": 255
+      },
+      "last_seen": "2025-01-08T18:50:20.803255+00:00"
+    },
+    {
+      "state": {"entity_id":"number.ikea_of_sweden_tradfri_driver_10w_niva_vid_start","state":"255","attributes":{"min":0,"max":255,"step":1.0,"mode":"auto","friendly_name":"Bokhylla vänster Nivå vid start"},"last_changed":"2025-01-08T18:50:02.259532+00:00","last_reported":"2025-01-08T18:50:20.749749+00:00","last_updated":"2025-01-08T18:50:20.749749+00:00","context":{"id":"01JH3M1Q6DHNYREJ5S77PVKR59","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_max_value": 255,
+        "native_min_value": 0,
+        "native_step": 1.0,
+        "native_unit_of_measurement": null,
+        "native_value": 255
+      },
+      "last_seen": "2025-01-08T18:50:20.811752+00:00"
+    },
+    {
+      "state": {"entity_id":"select.ikea_of_sweden_tradfri_driver_10w_uppstartsbeteende","state":"On","attributes":{"options":["Off","On","Toggle","PreviousValue"],"friendly_name":"Bokhylla vänster Uppstartsbeteende"},"last_changed":"2025-01-08T18:50:02.339114+00:00","last_reported":"2025-01-08T18:50:20.751452+00:00","last_updated":"2025-01-08T18:50:20.751452+00:00","context":{"id":"01JH3M1Q6F5A7KVEQ7VTXVRV8E","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-08T18:50:20.818755+00:00"
+    },
+    {
+      "state": {"entity_id":"number.ikea_of_sweden_tradfri_driver_10w_overgangstid_vid_vaxling","state":"5","attributes":{"min":0,"max":65535,"step":1.0,"mode":"auto","friendly_name":"Bokhylla vänster Övergångstid vid växling"},"last_changed":"2025-01-08T18:50:02.235713+00:00","last_reported":"2025-01-08T18:50:20.748715+00:00","last_updated":"2025-01-08T18:50:20.748715+00:00","context":{"id":"01JH3M1Q6CSD9GNZNC109WTFEY","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_max_value": 65535,
+        "native_min_value": 0,
+        "native_step": 1.0,
+        "native_unit_of_measurement": null,
+        "native_value": 5
+      },
+      "last_seen": "2025-01-08T18:50:20.827193+00:00"
+    },
+    {
+      "state": {"entity_id":"update.bokhylla_firmware","state":"off","attributes":{"auto_update":false,"display_precision":2,"installed_version":"0x23068631","in_progress":false,"latest_version":"0x23068631","release_summary":null,"release_url":null,"skipped_version":null,"title":null,"update_percentage":null,"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/zha/icon.png","friendly_name":"Bokhylla  Firmware","supported_features":23},"last_changed":"2025-01-08T18:45:29.956459+00:00","last_reported":"2025-01-08T18:46:09.481537+00:00","last_updated":"2025-01-08T18:45:29.956459+00:00","context":{"id":"01JH3KRV742KCSAWNJ59PFCQAG","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-08T18:46:09.500153+00:00"
+    },
+    {
+      "state": {"entity_id":"button.bokhylla_identifiera","state":"unknown","attributes":{"device_class":"identify","friendly_name":"Bokhylla  Identifiera"},"last_changed":"2025-01-08T18:45:29.964455+00:00","last_reported":"2025-01-08T18:46:09.481743+00:00","last_updated":"2025-01-08T18:45:29.964455+00:00","context":{"id":"01JH3KRV7CYPA8H6FFK59TKM1X","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-08T18:46:09.513878+00:00"
+    },
+    {
+      "state": {"entity_id":"light.bokhylla_lampa","state":"off","attributes":{"supported_color_modes":["brightness"],"color_mode":null,"brightness":null,"off_with_transition":false,"off_brightness":254,"friendly_name":"Bokhylla  Lampa","supported_features":40},"last_changed":"2025-01-08T18:45:32.405191+00:00","last_reported":"2025-01-08T18:46:09.482047+00:00","last_updated":"2025-01-08T18:45:32.405191+00:00","context":{"id":"01JH3KRXFYYS146AJ2J4EQDN4Z","parent_id":null,"user_id":"4d84071e1964407a8255d23037741304"}},
+      "extra_data": null,
+      "last_seen": "2025-01-08T18:46:09.526056+00:00"
+    },
+    {
+      "state": {"entity_id":"number.bokhylla_niva_vid_paslag","state":"255","attributes":{"min":0,"max":255,"step":1.0,"mode":"auto","friendly_name":"Bokhylla  Nivå vid påslag"},"last_changed":"2025-01-08T18:45:29.982707+00:00","last_reported":"2025-01-08T18:46:09.482331+00:00","last_updated":"2025-01-08T18:45:29.982707+00:00","context":{"id":"01JH3KRV7YQ6FNBX7S1HE2NHJE","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_max_value": 255,
+        "native_min_value": 0,
+        "native_step": 1.0,
+        "native_unit_of_measurement": null,
+        "native_value": 255
+      },
+      "last_seen": "2025-01-08T18:46:09.534308+00:00"
+    },
+    {
+      "state": {"entity_id":"number.bokhylla_niva_vid_start","state":"255","attributes":{"min":0,"max":255,"step":1.0,"mode":"auto","friendly_name":"Bokhylla  Nivå vid start"},"last_changed":"2025-01-08T18:45:29.989509+00:00","last_reported":"2025-01-08T18:46:09.482509+00:00","last_updated":"2025-01-08T18:45:29.989509+00:00","context":{"id":"01JH3KRV8513DV31D3F71TDX7H","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_max_value": 255,
+        "native_min_value": 0,
+        "native_step": 1.0,
+        "native_unit_of_measurement": null,
+        "native_value": 255
+      },
+      "last_seen": "2025-01-08T18:46:09.543633+00:00"
+    },
+    {
+      "state": {"entity_id":"select.bokhylla_uppstartsbeteende","state":"On","attributes":{"options":["Off","On","Toggle","PreviousValue"],"friendly_name":"Bokhylla  Uppstartsbeteende"},"last_changed":"2025-01-08T18:45:29.997893+00:00","last_reported":"2025-01-08T18:46:09.482723+00:00","last_updated":"2025-01-08T18:45:29.997893+00:00","context":{"id":"01JH3KRV8D462RNPZ27BFZCD2V","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-08T18:46:09.552369+00:00"
+    },
+    {
+      "state": {"entity_id":"number.bokhylla_overgangstid_vid_vaxling","state":"5","attributes":{"min":0,"max":65535,"step":1.0,"mode":"auto","friendly_name":"Bokhylla  Övergångstid vid växling"},"last_changed":"2025-01-08T18:45:30.004830+00:00","last_reported":"2025-01-08T18:46:09.482881+00:00","last_updated":"2025-01-08T18:45:30.004830+00:00","context":{"id":"01JH3KRV8MCA20HZKZHC03WHFF","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_max_value": 65535,
+        "native_min_value": 0,
+        "native_step": 1.0,
+        "native_unit_of_measurement": null,
+        "native_value": 5
+      },
+      "last_seen": "2025-01-08T18:46:09.559461+00:00"
+    },
+    {
+      "state": {"entity_id":"switch.ikea_of_sweden_tradfri_control_outlet_brytare","state":"on","attributes":{"friendly_name":"Styrt vägguttag 1 Brytare"},"last_changed":"2025-01-08T18:47:57.312706+00:00","last_reported":"2025-01-08T18:48:21.259159+00:00","last_updated":"2025-01-08T18:48:21.259159+00:00","context":{"id":"01JH3KY2GBMRD1D64AT2HKV74Z","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-08T18:48:21.282403+00:00"
+    },
+    {
+      "state": {"entity_id":"update.ikea_of_sweden_tradfri_control_outlet_firmware","state":"unknown","attributes":{"auto_update":false,"display_precision":2,"installed_version":"0x20024623","in_progress":false,"latest_version":null,"release_summary":null,"release_url":null,"skipped_version":null,"title":null,"update_percentage":null,"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/zha/icon.png","friendly_name":"Styrt vägguttag 1 Firmware","supported_features":23},"last_changed":"2025-01-08T18:48:12.063181+00:00","last_reported":"2025-01-08T18:48:21.259657+00:00","last_updated":"2025-01-08T18:48:21.259657+00:00","context":{"id":"01JH3KY2GBEQWQ964R2Q58KEZK","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-08T18:48:21.291573+00:00"
+    },
+    {
+      "state": {"entity_id":"button.ikea_of_sweden_tradfri_control_outlet_identifiera","state":"unknown","attributes":{"device_class":"identify","friendly_name":"Styrt vägguttag 1 Identifiera"},"last_changed":"2025-01-08T18:47:57.336561+00:00","last_reported":"2025-01-08T18:48:21.259972+00:00","last_updated":"2025-01-08T18:48:21.259972+00:00","context":{"id":"01JH3KY2GB4E8PY4H9XT5MYBPV","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-08T18:48:21.325366+00:00"
+    },
+    {
+      "state": {"entity_id":"select.ikea_of_sweden_tradfri_control_outlet_uppstartsbeteende","state":"PreviousValue","attributes":{"options":["Off","On","Toggle","PreviousValue"],"friendly_name":"Styrt vägguttag 1 Uppstartsbeteende"},"last_changed":"2025-01-08T18:47:57.350636+00:00","last_reported":"2025-01-08T18:48:21.260291+00:00","last_updated":"2025-01-08T18:48:21.260291+00:00","context":{"id":"01JH3KY2GCSAR4344WWRF3747M","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-08T18:48:21.334425+00:00"
+    },
+    {
+      "state": {"entity_id":"switch.styrt_vagguttag_1_brytare","state":"on","attributes":{"friendly_name":"Styrt vägguttag 1 Brytare"},"last_changed":"2025-01-08T18:48:21.289809+00:00","last_reported":"2025-01-08T18:48:29.329449+00:00","last_updated":"2025-01-08T18:48:21.289809+00:00","context":{"id":"01JH3KY2H9T7JXHFC13HQ4DQ1H","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-08T18:48:29.341583+00:00"
+    },
+    {
+      "state": {"entity_id":"update.styrt_vagguttag_1_firmware","state":"unknown","attributes":{"auto_update":false,"display_precision":2,"installed_version":"0x20024623","in_progress":false,"latest_version":null,"release_summary":null,"release_url":null,"skipped_version":null,"title":null,"update_percentage":null,"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/zha/icon.png","friendly_name":"Styrt vägguttag 1 Firmware","supported_features":23},"last_changed":"2025-01-08T18:48:21.298785+00:00","last_reported":"2025-01-08T18:48:29.329692+00:00","last_updated":"2025-01-08T18:48:21.298785+00:00","context":{"id":"01JH3KY2HJAKC7Z3JR8MVZ6RYH","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-08T18:48:29.351975+00:00"
+    },
+    {
+      "state": {"entity_id":"button.styrt_vagguttag_1_identifiera","state":"unknown","attributes":{"device_class":"identify","friendly_name":"Styrt vägguttag 1 Identifiera"},"last_changed":"2025-01-08T18:48:21.332674+00:00","last_reported":"2025-01-08T18:48:29.329829+00:00","last_updated":"2025-01-08T18:48:21.332674+00:00","context":{"id":"01JH3KY2JMS6K462N34GN0G6DB","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-08T18:48:29.360529+00:00"
+    },
+    {
+      "state": {"entity_id":"select.styrt_vagguttag_1_uppstartsbeteende","state":"PreviousValue","attributes":{"options":["Off","On","Toggle","PreviousValue"],"friendly_name":"Styrt vägguttag 1 Uppstartsbeteende"},"last_changed":"2025-01-08T18:48:21.340347+00:00","last_reported":"2025-01-08T18:48:29.329998+00:00","last_updated":"2025-01-08T18:48:21.340347+00:00","context":{"id":"01JH3KY2JWS2FT19AT6WH9P2RS","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-08T18:48:29.367309+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.ikea_of_sweden_tradfri_motion_sensor_batteri","state":"100","attributes":{"state_class":"measurement","battery_size":"CR2032","battery_voltage":0.0,"battery_quantity":2,"unit_of_measurement":"%","device_class":"battery","friendly_name":"Rörelsesensor Batteri"},"last_changed":"2025-01-08T18:57:50.651966+00:00","last_reported":"2025-01-08T18:58:43.903767+00:00","last_updated":"2025-01-08T18:58:43.903767+00:00","context":{"id":"01JH3MH2HZN87A1F3SDHWA3Z02","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-08T18:58:43.920854+00:00"
+    },
+    {
+      "state": {"entity_id":"update.ikea_of_sweden_tradfri_motion_sensor_firmware","state":"unknown","attributes":{"auto_update":false,"display_precision":2,"installed_version":"0x20022623","in_progress":false,"latest_version":null,"release_summary":null,"release_url":null,"skipped_version":null,"title":null,"update_percentage":null,"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/zha/icon.png","friendly_name":"Rörelsesensor Firmware","supported_features":23},"last_changed":"2025-01-08T18:58:22.534855+00:00","last_reported":"2025-01-08T18:58:43.904159+00:00","last_updated":"2025-01-08T18:58:43.904159+00:00","context":{"id":"01JH3MH2J0WAFW9E01E4434CFK","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-08T18:58:43.929362+00:00"
+    },
+    {
+      "state": {"entity_id":"button.ikea_of_sweden_tradfri_motion_sensor_identifiera","state":"unknown","attributes":{"device_class":"identify","friendly_name":"Rörelsesensor Identifiera"},"last_changed":"2025-01-08T18:57:50.709583+00:00","last_reported":"2025-01-08T18:58:43.904452+00:00","last_updated":"2025-01-08T18:58:43.904452+00:00","context":{"id":"01JH3MH2J0SPHYDNGQGPMKE506","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-08T18:58:43.937540+00:00"
+    },
+    {
+      "state": {"entity_id":"binary_sensor.ikea_of_sweden_tradfri_motion_sensor_rorelse","state":"off","attributes":{"device_class":"motion","friendly_name":"Rörelsesensor Rörelse"},"last_changed":"2025-01-08T18:57:50.630408+00:00","last_reported":"2025-01-08T18:58:43.902924+00:00","last_updated":"2025-01-08T18:58:43.902924+00:00","context":{"id":"01JH3MH2HYDEWECST93K0NZ7BS","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-08T18:58:43.946088+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.ikea_of_sweden_tradfri_on_off_switch_batteri","state":"100","attributes":{"state_class":"measurement","battery_size":"CR2032","battery_voltage":0.0,"battery_quantity":1,"unit_of_measurement":"%","device_class":"battery","friendly_name":"AV/PÅ knapp Batteri"},"last_changed":"2025-01-08T19:13:42.197176+00:00","last_reported":"2025-01-08T19:14:32.478925+00:00","last_updated":"2025-01-08T19:14:32.478925+00:00","context":{"id":"01JH3NE0WYR6QEZGFY52QTFKEA","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-08T19:14:32.492171+00:00"
+    },
+    {
+      "state": {"entity_id":"update.ikea_of_sweden_tradfri_on_off_switch_firmware","state":"unknown","attributes":{"auto_update":false,"display_precision":2,"installed_version":"0x22010631","in_progress":false,"latest_version":null,"release_summary":null,"release_url":null,"skipped_version":null,"title":null,"update_percentage":null,"device_class":"firmware","entity_picture":"https://brands.home-assistant.io/_/zha/icon.png","friendly_name":"AV/PÅ knapp Firmware","supported_features":23},"last_changed":"2025-01-08T19:13:54.477767+00:00","last_reported":"2025-01-08T19:14:32.479355+00:00","last_updated":"2025-01-08T19:14:32.479355+00:00","context":{"id":"01JH3NE0WZEZXDB117YMZ5JEJE","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-08T19:14:32.502509+00:00"
+    },
+    {
+      "state": {"entity_id":"button.ikea_of_sweden_tradfri_on_off_switch_identifiera","state":"unknown","attributes":{"device_class":"identify","friendly_name":"AV/PÅ knapp Identifiera"},"last_changed":"2025-01-08T19:13:42.256422+00:00","last_reported":"2025-01-08T19:14:32.479612+00:00","last_updated":"2025-01-08T19:14:32.479612+00:00","context":{"id":"01JH3NE0WZ8DD9KC7N1N2DRDWZ","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2025-01-08T19:14:32.514491+00:00"
+    }
+  ]
+}

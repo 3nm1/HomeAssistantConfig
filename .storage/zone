@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "zone",
+  "data": {
+    "items": [
+      {
+        "id": "evedal",
+        "latitude": 56.65233412408759,
+        "longitude": 16.49534940719605,
+        "name": "Evedal",
+        "icon": "mdi:map-marker",
+        "passive": false,
+        "radius": 100.0
+      }
+    ]
+  }
+}

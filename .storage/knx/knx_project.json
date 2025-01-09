@@ -1,0 +1,3798 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "knx/knx_project.json",
+  "data": {
+    "info": {
+      "project_id": "P-0628",
+      "name": "Åkaregatan 4 ETS 5",
+      "last_modified": "2021-04-12T14:52:02.2585141Z",
+      "group_address_style": "ThreeLevel",
+      "guid": "9aaecd8b-d0e0-4330-b1aa-36263767785d",
+      "created_by": "ETS5",
+      "schema_version": "20",
+      "tool_version": "5.7.1093.38570",
+      "xknxproject_version": "3.8.1",
+      "language_code": "sv-SE"
+    },
+    "communication_objects": {
+      "1.1.2/O-1_R-18": {
+        "name": "Dimmobjekt",
+        "number": 1,
+        "text": "Dimming object",
+        "function_text": "Channel 1, general",
+        "description": "",
+        "device_address": "1.1.2",
+        "device_application": "M-000C_A-3245-11-6AD5",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 3,
+            "sub": null
+          }
+        ],
+        "object_size": "4 Bit",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": false
+        },
+        "group_address_links": [
+          "1/1/64"
+        ]
+      },
+      "1.1.3/O-20_R-22": {
+        "name": "Ventilausgang 1 - Eingang",
+        "number": 20,
+        "text": "Valve output 1 - Input",
+        "function_text": "Command value",
+        "description": "",
+        "device_address": "1.1.3",
+        "device_application": "M-000C_A-2068-10-07B7-O000A",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 1,
+            "sub": 1
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": true,
+          "read_on_init": false,
+          "transmit": false
+        },
+        "group_address_links": [
+          "1/2/3"
+        ]
+      },
+      "1.1.3/O-70_R-41": {
+        "name": "Ventilausgang 2 - Eingang",
+        "number": 70,
+        "text": "Valve output 2 - Input",
+        "function_text": "Command value",
+        "description": "",
+        "device_address": "1.1.3",
+        "device_application": "M-000C_A-2068-10-07B7-O000A",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 1,
+            "sub": 1
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": true,
+          "read_on_init": false,
+          "transmit": false
+        },
+        "group_address_links": [
+          "1/2/3"
+        ]
+      },
+      "1.1.3/O-120_R-65": {
+        "name": "Ventilausgang 3 - Eingang",
+        "number": 120,
+        "text": "Valve output 3 - Input",
+        "function_text": "Command value",
+        "description": "",
+        "device_address": "1.1.3",
+        "device_application": "M-000C_A-2068-10-07B7-O000A",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 1,
+            "sub": 1
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": true,
+          "read_on_init": false,
+          "transmit": false
+        },
+        "group_address_links": [
+          "1/2/3"
+        ]
+      },
+      "1.1.3/O-170_R-89": {
+        "name": "Ventilausgang 4 - Eingang",
+        "number": 170,
+        "text": "Valve output 4 - Input",
+        "function_text": "Command value",
+        "description": "",
+        "device_address": "1.1.3",
+        "device_application": "M-000C_A-2068-10-07B7-O000A",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 1,
+            "sub": 1
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": true,
+          "read_on_init": false,
+          "transmit": false
+        },
+        "group_address_links": [
+          "1/2/62"
+        ]
+      },
+      "1.1.5/O-1_R-18": {
+        "name": "Dimmobjekt",
+        "number": 1,
+        "text": "Dimmobjekt",
+        "function_text": "Kanal 1, allgemein",
+        "description": "",
+        "device_address": "1.1.5",
+        "device_application": "M-000C_A-3211-11-16D2",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 3,
+            "sub": null
+          }
+        ],
+        "object_size": "4 Bit",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": false
+        },
+        "group_address_links": [
+          "1/1/54"
+        ]
+      },
+      "1.1.5/O-11_R-37": {
+        "name": "Dimmobjekt",
+        "number": 11,
+        "text": "Dimmobjekt",
+        "function_text": "Kanal 2, allgemein",
+        "description": "",
+        "device_address": "1.1.5",
+        "device_application": "M-000C_A-3211-11-16D2",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 3,
+            "sub": null
+          }
+        ],
+        "object_size": "4 Bit",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": false
+        },
+        "group_address_links": [
+          "1/1/60"
+        ]
+      },
+      "1.1.5/O-21_R-56": {
+        "name": "Dimmobjekt",
+        "number": 21,
+        "text": "Dimmobjekt",
+        "function_text": "Kanal 3, allgemein",
+        "description": "",
+        "device_address": "1.1.5",
+        "device_application": "M-000C_A-3211-11-16D2",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 3,
+            "sub": 7
+          }
+        ],
+        "object_size": "4 Bit",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": false
+        },
+        "group_address_links": [
+          "1/1/64"
+        ]
+      },
+      "1.1.5/O-19_R-34": {
+        "name": "Rückmeldung Wertobjekt/Helligkeitswert",
+        "number": 19,
+        "text": "Rückmeldung Wertobjekt/Helligkeitswert",
+        "function_text": "Kanal 2, Rückmeldung",
+        "description": "",
+        "device_address": "1.1.5",
+        "device_application": "M-000C_A-3211-11-16D2",
+        "module_def": null,
+        "channel": null,
+        "dpts": [],
+        "object_size": "1 Byte",
+        "flags": {
+          "read": false,
+          "write": false,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": true
+        },
+        "group_address_links": [
+          "1/1/61"
+        ]
+      },
+      "1.1.5/O-29_R-53": {
+        "name": "Rückmeldung Wertobjekt/Helligkeitswert",
+        "number": 29,
+        "text": "Rückmeldung Wertobjekt/Helligkeitswert",
+        "function_text": "Kanal 3, Rückmeldung",
+        "description": "",
+        "device_address": "1.1.5",
+        "device_application": "M-000C_A-3211-11-16D2",
+        "module_def": null,
+        "channel": null,
+        "dpts": [],
+        "object_size": "1 Byte",
+        "flags": {
+          "read": false,
+          "write": false,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": true
+        },
+        "group_address_links": [
+          "1/1/65"
+        ]
+      },
+      "1.1.6/O-0_R-34": {
+        "name": "Switch object",
+        "number": 0,
+        "text": "till/från-objektet",
+        "function_text": "Kanal 1",
+        "description": "Takbelysning entrehall",
+        "device_address": "1.1.6",
+        "device_application": "M-0064_A-4820-11-FAFB-O000C",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 1,
+            "sub": null
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": false
+        },
+        "group_address_links": [
+          "0/1/0"
+        ]
+      },
+      "1.1.6/O-4_R-43": {
+        "name": "Switch object",
+        "number": 4,
+        "text": "till/från-objektet",
+        "function_text": "Kanal 2",
+        "description": "Ytterbelysning vid Entre",
+        "device_address": "1.1.6",
+        "device_application": "M-0064_A-4820-11-FAFB-O000C",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 1,
+            "sub": null
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": false
+        },
+        "group_address_links": [
+          "0/1/1"
+        ]
+      },
+      "1.1.6/O-8_R-69": {
+        "name": "Switch object",
+        "number": 8,
+        "text": "till/från-objektet",
+        "function_text": "Kanal 3",
+        "description": "Takbelysning hall",
+        "device_address": "1.1.6",
+        "device_application": "M-0064_A-4820-11-FAFB-O000C",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 1,
+            "sub": null
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": false
+        },
+        "group_address_links": [
+          "0/1/0"
+        ]
+      },
+      "1.1.6/O-12_R-78": {
+        "name": "Switch object",
+        "number": 12,
+        "text": "till/från-objektet",
+        "function_text": "Kanal 4",
+        "description": "Takbelysning kontor",
+        "device_address": "1.1.6",
+        "device_application": "M-0064_A-4820-11-FAFB-O000C",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 1,
+            "sub": null
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": false
+        },
+        "group_address_links": [
+          "0/1/0",
+          "1/1/0"
+        ]
+      },
+      "1.1.6/O-16_R-104": {
+        "name": "Switch object",
+        "number": 16,
+        "text": "till/från-objektet",
+        "function_text": "Kanal 5",
+        "description": "Styrt VU, kontor övre brunn, till höger om fönster",
+        "device_address": "1.1.6",
+        "device_application": "M-0064_A-4820-11-FAFB-O000C",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 1,
+            "sub": null
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": false
+        },
+        "group_address_links": [
+          "0/1/1"
+        ]
+      },
+      "1.1.6/O-20_R-113": {
+        "name": "Switch object",
+        "number": 20,
+        "text": "till/från-objektet",
+        "function_text": "Kanal 6",
+        "description": "Takbelysning bibliotek",
+        "device_address": "1.1.6",
+        "device_application": "M-0064_A-4820-11-FAFB-O000C",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 1,
+            "sub": null
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": false
+        },
+        "group_address_links": [
+          "0/1/0",
+          "1/1/20"
+        ]
+      },
+      "1.1.6/O-24_R-139": {
+        "name": "Switch object",
+        "number": 24,
+        "text": "till/från-objektet",
+        "function_text": "Kanal 7",
+        "description": "Styrt VU, bibliotek övre brunn, till vänster om fönster",
+        "device_address": "1.1.6",
+        "device_application": "M-0064_A-4820-11-FAFB-O000C",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 1,
+            "sub": null
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": false
+        },
+        "group_address_links": [
+          "0/1/1"
+        ]
+      },
+      "1.1.6/O-28_R-148": {
+        "name": "Switch object",
+        "number": 28,
+        "text": "till/från-objektet",
+        "function_text": "Kanal 8",
+        "description": "Takbelysning vardagsrum",
+        "device_address": "1.1.6",
+        "device_application": "M-0064_A-4820-11-FAFB-O000C",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 1,
+            "sub": null
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": false
+        },
+        "group_address_links": [
+          "0/1/0",
+          "1/1/30"
+        ]
+      },
+      "1.1.6/O-36_R-183": {
+        "name": "Switch object",
+        "number": 36,
+        "text": "till/från-objektet",
+        "function_text": "Kanal 10",
+        "description": "Styrt VU, vardagsrum övre brunn, till vänster om fönster",
+        "device_address": "1.1.6",
+        "device_application": "M-0064_A-4820-11-FAFB-O000C",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 1,
+            "sub": null
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": false
+        },
+        "group_address_links": [
+          "0/1/1"
+        ]
+      },
+      "1.1.6/O-40_R-209": {
+        "name": "Switch object",
+        "number": 40,
+        "text": "till/från-objektet",
+        "function_text": "Kanal 11",
+        "description": "Takbelysning badrum",
+        "device_address": "1.1.6",
+        "device_application": "M-0064_A-4820-11-FAFB-O000C",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 1,
+            "sub": null
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": false
+        },
+        "group_address_links": [
+          "0/1/0"
+        ]
+      },
+      "1.1.6/O-44_R-218": {
+        "name": "Switch object",
+        "number": 44,
+        "text": "till/från-objektet",
+        "function_text": "Kanal 12",
+        "description": "Takbelysning sovrum",
+        "device_address": "1.1.6",
+        "device_application": "M-0064_A-4820-11-FAFB-O000C",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 1,
+            "sub": null
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": false
+        },
+        "group_address_links": [
+          "0/1/0"
+        ]
+      },
+      "1.1.6/O-15_R-85": {
+        "name": "Status feedback object",
+        "number": 15,
+        "text": "Kvitteringsobjekt",
+        "function_text": "Kanal 4",
+        "description": "",
+        "device_address": "1.1.6",
+        "device_application": "M-0064_A-4820-11-FAFB-O000C",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 1,
+            "sub": null
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": true,
+          "write": false,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": true
+        },
+        "group_address_links": [
+          "1/1/3"
+        ]
+      },
+      "1.1.6/O-31_R-155": {
+        "name": "Status feedback object",
+        "number": 31,
+        "text": "Kvitteringsobjekt",
+        "function_text": "Kanal 8",
+        "description": "",
+        "device_address": "1.1.6",
+        "device_application": "M-0064_A-4820-11-FAFB-O000C",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 1,
+            "sub": null
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": true,
+          "write": false,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": true
+        },
+        "group_address_links": [
+          "1/1/33"
+        ]
+      },
+      "1.1.6/O-23_R-120": {
+        "name": "Status feedback object",
+        "number": 23,
+        "text": "Kvitteringsobjekt",
+        "function_text": "Kanal 6",
+        "description": "",
+        "device_address": "1.1.6",
+        "device_application": "M-0064_A-4820-11-FAFB-O000C",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 1,
+            "sub": null
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": true,
+          "write": false,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": true
+        },
+        "group_address_links": [
+          "1/1/23"
+        ]
+      },
+      "1.1.7/O-0_R-34": {
+        "name": "Schaltobjekt",
+        "number": 0,
+        "text": "Schaltobjekt",
+        "function_text": "Kanal 1",
+        "description": "Belysningsskena i Kök L1",
+        "device_address": "1.1.7",
+        "device_application": "M-000C_A-4820-11-CF98",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 1,
+            "sub": null
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": false
+        },
+        "group_address_links": [
+          "0/1/0",
+          "1/1/51"
+        ]
+      },
+      "1.1.7/O-4_R-43": {
+        "name": "Schaltobjekt",
+        "number": 4,
+        "text": "Schaltobjekt",
+        "function_text": "Kanal 2",
+        "description": "Belysningsskena i Kök L2",
+        "device_address": "1.1.7",
+        "device_application": "M-000C_A-4820-11-CF98",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 1,
+            "sub": null
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": false
+        },
+        "group_address_links": [
+          "0/1/0",
+          "1/1/52"
+        ]
+      },
+      "1.1.7/O-8_R-69": {
+        "name": "Schaltobjekt",
+        "number": 8,
+        "text": "Schaltobjekt",
+        "function_text": "Kanal 3",
+        "description": "Belysningsskena i Kök L3",
+        "device_address": "1.1.7",
+        "device_application": "M-000C_A-4820-11-CF98",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 1,
+            "sub": null
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": false
+        },
+        "group_address_links": [
+          "0/1/0",
+          "1/1/53"
+        ]
+      },
+      "1.1.7/O-12_R-78": {
+        "name": "Schaltobjekt",
+        "number": 12,
+        "text": "Schaltobjekt",
+        "function_text": "Kanal 4",
+        "description": "Takbelysning över matbord i kök",
+        "device_address": "1.1.7",
+        "device_application": "M-000C_A-4820-11-CF98",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 1,
+            "sub": null
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": false
+        },
+        "group_address_links": [
+          "0/1/0",
+          "1/1/50"
+        ]
+      },
+      "1.1.7/O-16_R-104": {
+        "name": "Schaltobjekt",
+        "number": 16,
+        "text": "Schaltobjekt",
+        "function_text": "Kanal 5",
+        "description": "Takbelysning hobbyrum",
+        "device_address": "1.1.7",
+        "device_application": "M-000C_A-4820-11-CF98",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 1,
+            "sub": null
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": false
+        },
+        "group_address_links": [
+          "0/1/0"
+        ]
+      },
+      "1.1.7/O-20_R-113": {
+        "name": "Schaltobjekt",
+        "number": 20,
+        "text": "Schaltobjekt",
+        "function_text": "Kanal 6",
+        "description": "Ledspotar i fönstersmygar ut mot vägen.",
+        "device_address": "1.1.7",
+        "device_application": "M-000C_A-4820-11-CF98",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 1,
+            "sub": null
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": false
+        },
+        "group_address_links": [
+          "0/1/1"
+        ]
+      },
+      "1.1.7/O-24_R-139": {
+        "name": "Schaltobjekt",
+        "number": 24,
+        "text": "Schaltobjekt",
+        "function_text": "Kanal 7",
+        "description": "",
+        "device_address": "1.1.7",
+        "device_application": "M-000C_A-4820-11-CF98",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 1,
+            "sub": null
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": false
+        },
+        "group_address_links": [
+          "0/1/1"
+        ]
+      },
+      "1.1.7/O-32_R-174": {
+        "name": "Schaltobjekt",
+        "number": 32,
+        "text": "Schaltobjekt",
+        "function_text": "Kanal 9",
+        "description": "",
+        "device_address": "1.1.7",
+        "device_application": "M-000C_A-4820-11-CF98",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 1,
+            "sub": null
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": false
+        },
+        "group_address_links": [
+          "0/1/1"
+        ]
+      },
+      "1.1.7/O-36_R-183": {
+        "name": "Schaltobjekt",
+        "number": 36,
+        "text": "Schaltobjekt",
+        "function_text": "Kanal 10",
+        "description": "",
+        "device_address": "1.1.7",
+        "device_application": "M-000C_A-4820-11-CF98",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 1,
+            "sub": null
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": false
+        },
+        "group_address_links": [
+          "0/1/1"
+        ]
+      },
+      "1.1.7/O-28_R-148": {
+        "name": "Schaltobjekt",
+        "number": 28,
+        "text": "Switch object",
+        "function_text": "Kanal 8",
+        "description": "",
+        "device_address": "1.1.7",
+        "device_application": "M-000C_A-4820-11-CF98",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 1,
+            "sub": null
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": false
+        },
+        "group_address_links": [
+          "1/1/31",
+          "1/1/62"
+        ]
+      },
+      "1.1.7/O-31_R-155": {
+        "name": "Rückmeldeobjekt",
+        "number": 31,
+        "text": "Status feedback object",
+        "function_text": "Kanal 8",
+        "description": "",
+        "device_address": "1.1.7",
+        "device_application": "M-000C_A-4820-11-CF98",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 1,
+            "sub": null
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": true,
+          "write": false,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": true
+        },
+        "group_address_links": [
+          "1/1/63"
+        ]
+      },
+      "1.1.100/O-0_R-1": {
+        "name": "Brightness value",
+        "number": 0,
+        "text": "Ljusnivåvärde",
+        "function_text": "Ärvärde",
+        "description": "",
+        "device_address": "1.1.100",
+        "device_application": "M-0064_A-2421-12-E8BE-O0048",
+        "module_def": null,
+        "channel": null,
+        "dpts": [],
+        "object_size": "2 Bytes",
+        "flags": {
+          "read": true,
+          "write": false,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": true
+        },
+        "group_address_links": [
+          "0/1/2"
+        ]
+      },
+      "1.1.100/O-1_R-2": {
+        "name": "Temperature value",
+        "number": 1,
+        "text": "Temperatur",
+        "function_text": "Ärvärde",
+        "description": "",
+        "device_address": "1.1.100",
+        "device_application": "M-0064_A-2421-12-E8BE-O0048",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 9,
+            "sub": 1
+          }
+        ],
+        "object_size": "2 Bytes",
+        "flags": {
+          "read": true,
+          "write": false,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": true
+        },
+        "group_address_links": [
+          "0/2/0"
+        ]
+      },
+      "1.1.100/O-4_R-68": {
+        "name": "C1.1 Universal channel",
+        "number": 4,
+        "text": "C1.1 Ljusnivå gränsvärde",
+        "function_text": "Till/Från",
+        "description": "",
+        "device_address": "1.1.100",
+        "device_application": "M-0064_A-2421-12-E8BE-O0048",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 1,
+            "sub": null
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": true,
+          "write": false,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": true
+        },
+        "group_address_links": [
+          "0/1/1"
+        ]
+      },
+      "1.1.102/O-47_R-3330": {
+        "name": "Objekt 48",
+        "number": 47,
+        "text": "Driftläge",
+        "function_text": "Komfort",
+        "description": "",
+        "device_address": "1.1.102",
+        "device_application": "M-00F9_A-4774-10-894C-O001E",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 1,
+            "sub": null
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": true,
+          "write": true,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": true
+        },
+        "group_address_links": [
+          "1/2/5"
+        ]
+      },
+      "1.1.102/O-48_R-3329": {
+        "name": "Objekt 49",
+        "number": 48,
+        "text": "Driftläge",
+        "function_text": "Natt",
+        "description": "",
+        "device_address": "1.1.102",
+        "device_application": "M-00F9_A-4774-10-894C-O001E",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 1,
+            "sub": null
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": true,
+          "write": true,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": true
+        },
+        "group_address_links": [
+          "1/2/6"
+        ]
+      },
+      "1.1.102/O-53_R-3332": {
+        "name": "Objekt 54",
+        "number": 53,
+        "text": "Rumstemperatur, basbörvärde",
+        "function_text": "Börvärde",
+        "description": "",
+        "device_address": "1.1.102",
+        "device_application": "M-00F9_A-4774-10-894C-O001E",
+        "module_def": null,
+        "channel": null,
+        "dpts": [],
+        "object_size": "2 Bytes",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": false
+        },
+        "group_address_links": [
+          "1/2/1"
+        ]
+      },
+      "1.1.102/O-54_R-3333": {
+        "name": "Objekt 55",
+        "number": 54,
+        "text": "Rumstemperatur, börvärde",
+        "function_text": "basbörvärde",
+        "description": "",
+        "device_address": "1.1.102",
+        "device_application": "M-00F9_A-4774-10-894C-O001E",
+        "module_def": null,
+        "channel": null,
+        "dpts": [],
+        "object_size": "2 Bytes",
+        "flags": {
+          "read": true,
+          "write": false,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": true
+        },
+        "group_address_links": [
+          "1/2/2"
+        ]
+      },
+      "1.1.102/O-56_R-3335": {
+        "name": "Objekt 57",
+        "number": 56,
+        "text": "Extern temperatur",
+        "function_text": "Visning",
+        "description": "",
+        "device_address": "1.1.102",
+        "device_application": "M-00F9_A-4774-10-894C-O001E",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 9,
+            "sub": 1
+          }
+        ],
+        "object_size": "2 Bytes",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": false
+        },
+        "group_address_links": [
+          "0/2/0"
+        ]
+      },
+      "1.1.102/O-18_R-3481": {
+        "name": "Objekt 19",
+        "number": 18,
+        "text": "Vippa 4",
+        "function_text": "Till/Från",
+        "description": "",
+        "device_address": "1.1.102",
+        "device_application": "M-00F9_A-4774-10-894C-O001E",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 1,
+            "sub": null
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": true,
+          "read_on_init": false,
+          "transmit": true
+        },
+        "group_address_links": [
+          "0/1/0"
+        ]
+      },
+      "1.1.102/O-51_R-3282": {
+        "name": "Objekt 52",
+        "number": 51,
+        "text": "Styrstorhet",
+        "function_text": "Värme",
+        "description": "",
+        "device_address": "1.1.102",
+        "device_application": "M-00F9_A-4774-10-894C-O001E",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 1,
+            "sub": 1
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": true,
+          "write": false,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": true
+        },
+        "group_address_links": [
+          "1/2/3"
+        ]
+      },
+      "1.1.104/O-18_R-783": {
+        "name": "Vippa 4",
+        "number": 18,
+        "text": "Vippa 4",
+        "function_text": "Till/Från",
+        "description": "",
+        "device_address": "1.1.104",
+        "device_application": "M-00F9_A-4708-10-D649-O001E",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 1,
+            "sub": null
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": true,
+          "read_on_init": false,
+          "transmit": true
+        },
+        "group_address_links": [
+          "0/1/0"
+        ]
+      },
+      "1.1.105/O-0_R-955": {
+        "name": "Vippa 1",
+        "number": 0,
+        "text": "Vippa 1",
+        "function_text": "Till/Från",
+        "description": "",
+        "device_address": "1.1.105",
+        "device_application": "M-00F9_A-4708-10-D649-O001E",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 1,
+            "sub": null
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": true,
+          "read_on_init": false,
+          "transmit": true
+        },
+        "group_address_links": [
+          "1/1/20"
+        ]
+      },
+      "1.1.107/O-6_R-1049": {
+        "name": "Vippa 2",
+        "number": 6,
+        "text": "Vippa 2, vänster",
+        "function_text": "Till/Från",
+        "description": "",
+        "device_address": "1.1.107",
+        "device_application": "M-00F9_A-4708-10-D649-O001E",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 1,
+            "sub": null
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": true,
+          "read_on_init": false,
+          "transmit": true
+        },
+        "group_address_links": [
+          "1/1/52"
+        ]
+      },
+      "1.1.107/O-0_R-973": {
+        "name": "Vippa 1",
+        "number": 0,
+        "text": "Vippa 1, vänster",
+        "function_text": "Till/Från",
+        "description": "",
+        "device_address": "1.1.107",
+        "device_application": "M-00F9_A-4708-10-D649-O001E",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 1,
+            "sub": null
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": true,
+          "read_on_init": false,
+          "transmit": true
+        },
+        "group_address_links": [
+          "1/1/50"
+        ]
+      },
+      "1.1.107/O-3_R-978": {
+        "name": "Vippa 1, höger",
+        "number": 3,
+        "text": "Vippa 1, höger",
+        "function_text": "Till/Från",
+        "description": "",
+        "device_address": "1.1.107",
+        "device_application": "M-00F9_A-4708-10-D649-O001E",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 1,
+            "sub": null
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": true,
+          "read_on_init": false,
+          "transmit": true
+        },
+        "group_address_links": [
+          "1/1/51"
+        ]
+      },
+      "1.1.107/O-9_R-1083": {
+        "name": "Vippa 2, höger",
+        "number": 9,
+        "text": "Vippa 2, höger",
+        "function_text": "Till/Från",
+        "description": "",
+        "device_address": "1.1.107",
+        "device_application": "M-00F9_A-4708-10-D649-O001E",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 1,
+            "sub": null
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": true,
+          "read_on_init": false,
+          "transmit": true
+        },
+        "group_address_links": [
+          "1/1/53"
+        ]
+      },
+      "1.1.107/O-13_R-1139": {
+        "name": "Vippa 3",
+        "number": 13,
+        "text": "Vippa 3, vänster",
+        "function_text": "Dim",
+        "description": "",
+        "device_address": "1.1.107",
+        "device_application": "M-00F9_A-4708-10-D649-O001E",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 3,
+            "sub": null
+          }
+        ],
+        "object_size": "4 Bit",
+        "flags": {
+          "read": false,
+          "write": false,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": true
+        },
+        "group_address_links": [
+          "1/1/54"
+        ]
+      },
+      "1.1.123/O-0_R-955": {
+        "name": "Vippa 1",
+        "number": 0,
+        "text": "Vippa 1",
+        "function_text": "Till/Från",
+        "description": "",
+        "device_address": "1.1.123",
+        "device_application": "M-00F9_A-4708-10-D649-O001E",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 1,
+            "sub": null
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": true,
+          "read_on_init": false,
+          "transmit": true
+        },
+        "group_address_links": [
+          "1/1/0"
+        ]
+      },
+      "1.1.126/O-0_R-955": {
+        "name": "Vippa 1",
+        "number": 0,
+        "text": "Vippa 1",
+        "function_text": "Till/Från",
+        "description": "",
+        "device_address": "1.1.126",
+        "device_application": "M-00F9_A-4708-10-D649-O001E",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 1,
+            "sub": null
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": true,
+          "read_on_init": false,
+          "transmit": true
+        },
+        "group_address_links": [
+          "1/1/30"
+        ]
+      },
+      "1.1.126/O-12_R-1116": {
+        "name": "Vippa 3",
+        "number": 12,
+        "text": "Vippa 3",
+        "function_text": "Till/Från",
+        "description": "",
+        "device_address": "1.1.126",
+        "device_application": "M-00F9_A-4708-10-D649-O001E",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 1,
+            "sub": null
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": true,
+          "read_on_init": false,
+          "transmit": true
+        },
+        "group_address_links": [
+          "1/1/31"
+        ]
+      },
+      "1.1.127/O-8_R-69": {
+        "name": "Function_1",
+        "number": 8,
+        "text": "F2: Takbelysning",
+        "function_text": "State for display",
+        "description": "",
+        "device_address": "1.1.127",
+        "device_application": "M-0083_A-0054-11-9C09",
+        "module_def": null,
+        "channel": "CH-5",
+        "dpts": [
+          {
+            "main": 1,
+            "sub": 1
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": true,
+          "read_on_init": false,
+          "transmit": true
+        },
+        "group_address_links": [
+          "1/1/63"
+        ]
+      },
+      "1.1.127/O-153_R-140": {
+        "name": "ReglerOutHeizen",
+        "number": 153,
+        "text": "Control value heating",
+        "function_text": "Send control value",
+        "description": "",
+        "device_address": "1.1.127",
+        "device_application": "M-0083_A-0054-11-9C09",
+        "module_def": null,
+        "channel": "CH-2",
+        "dpts": [
+          {
+            "main": 1,
+            "sub": 1
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": true,
+          "write": false,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": true
+        },
+        "group_address_links": [
+          "1/2/62"
+        ]
+      },
+      "1.1.127/O-5_R-67": {
+        "name": "Function_1",
+        "number": 5,
+        "text": "F2: Takbelysning",
+        "function_text": "Switch On/Off",
+        "description": "",
+        "device_address": "1.1.127",
+        "device_application": "M-0083_A-0054-11-9C09",
+        "module_def": null,
+        "channel": "CH-5",
+        "dpts": [
+          {
+            "main": 1,
+            "sub": 1
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": false,
+          "write": false,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": true
+        },
+        "group_address_links": [
+          "1/1/62"
+        ]
+      },
+      "1.1.127/O-3_R-1061": {
+        "name": "Function_0",
+        "number": 3,
+        "text": "F1: Fönster LED",
+        "function_text": "State dimming value for display",
+        "description": "",
+        "device_address": "1.1.127",
+        "device_application": "M-0083_A-0054-11-9C09",
+        "module_def": null,
+        "channel": "CH-5",
+        "dpts": [
+          {
+            "main": 5,
+            "sub": 1
+          }
+        ],
+        "object_size": "1 Byte",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": true,
+          "read_on_init": false,
+          "transmit": true
+        },
+        "group_address_links": [
+          "1/1/61"
+        ]
+      },
+      "1.1.127/O-1_R-1055": {
+        "name": "Function_0",
+        "number": 1,
+        "text": "F1: Fönster LED",
+        "function_text": "Dimming relative",
+        "description": "",
+        "device_address": "1.1.127",
+        "device_application": "M-0083_A-0054-11-9C09",
+        "module_def": null,
+        "channel": "CH-5",
+        "dpts": [
+          {
+            "main": 3,
+            "sub": 7
+          }
+        ],
+        "object_size": "4 Bit",
+        "flags": {
+          "read": false,
+          "write": false,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": true
+        },
+        "group_address_links": [
+          "1/1/60"
+        ]
+      },
+      "1.1.127/O-16_R-1090": {
+        "name": "Function_3",
+        "number": 16,
+        "text": "F4: Ledlist tak",
+        "function_text": "Dimming relative",
+        "description": "",
+        "device_address": "1.1.127",
+        "device_application": "M-0083_A-0054-11-9C09",
+        "module_def": null,
+        "channel": "CH-5",
+        "dpts": [
+          {
+            "main": 3,
+            "sub": 7
+          }
+        ],
+        "object_size": "4 Bit",
+        "flags": {
+          "read": false,
+          "write": false,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": true
+        },
+        "group_address_links": [
+          "1/1/64"
+        ]
+      },
+      "1.1.127/O-18_R-1091": {
+        "name": "Function_3",
+        "number": 18,
+        "text": "F4: Ledlist tak",
+        "function_text": "State dimming value for display",
+        "description": "",
+        "device_address": "1.1.127",
+        "device_application": "M-0083_A-0054-11-9C09",
+        "module_def": null,
+        "channel": "CH-5",
+        "dpts": [
+          {
+            "main": 5,
+            "sub": 1
+          }
+        ],
+        "object_size": "1 Byte",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": true,
+          "read_on_init": false,
+          "transmit": true
+        },
+        "group_address_links": [
+          "1/1/65"
+        ]
+      },
+      "1.1.127/O-125_R-4": {
+        "name": "Time",
+        "number": 125,
+        "text": "Time",
+        "function_text": "Send current value",
+        "description": "",
+        "device_address": "1.1.127",
+        "device_application": "M-0083_A-0054-11-9C09",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 10,
+            "sub": 1
+          }
+        ],
+        "object_size": "3 Bytes",
+        "flags": {
+          "read": true,
+          "write": false,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": true
+        },
+        "group_address_links": [
+          "0/0/2"
+        ]
+      },
+      "1.1.127/O-127_R-6": {
+        "name": "DateTime",
+        "number": 127,
+        "text": "Time / Date",
+        "function_text": "Send current value",
+        "description": "",
+        "device_address": "1.1.127",
+        "device_application": "M-0083_A-0054-11-9C09",
+        "module_def": null,
+        "channel": null,
+        "dpts": [
+          {
+            "main": 19,
+            "sub": 1
+          }
+        ],
+        "object_size": "8 Bytes",
+        "flags": {
+          "read": true,
+          "write": false,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": true
+        },
+        "group_address_links": [
+          "0/0/1"
+        ]
+      },
+      "1.1.128/O-21_R-1015": {
+        "name": "Eingang 4",
+        "number": 21,
+        "text": "PB5/6: Ledlist tak",
+        "function_text": "Dimming relative",
+        "description": "",
+        "device_address": "1.1.128",
+        "device_application": "M-0083_A-008B-25-CC83",
+        "module_def": null,
+        "channel": "CH-1",
+        "dpts": [
+          {
+            "main": 3,
+            "sub": 7
+          }
+        ],
+        "object_size": "4 Bit",
+        "flags": {
+          "read": false,
+          "write": false,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": true
+        },
+        "group_address_links": [
+          "1/1/64"
+        ]
+      },
+      "1.1.128/O-0_R-38": {
+        "name": "Eingang 0",
+        "number": 0,
+        "text": "PB1/2: Tak spotlights",
+        "function_text": "Switch On/Off",
+        "description": "",
+        "device_address": "1.1.128",
+        "device_application": "M-0083_A-008B-25-CC83",
+        "module_def": null,
+        "channel": "CH-1",
+        "dpts": [
+          {
+            "main": 1,
+            "sub": 1
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": false,
+          "write": false,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": true
+        },
+        "group_address_links": [
+          "1/1/62"
+        ]
+      },
+      "1.1.128/O-3_R-21": {
+        "name": "Eingang 0",
+        "number": 3,
+        "text": "PB1/2: Tak spotlights",
+        "function_text": "State for display",
+        "description": "",
+        "device_address": "1.1.128",
+        "device_application": "M-0083_A-008B-25-CC83",
+        "module_def": null,
+        "channel": "CH-1",
+        "dpts": [
+          {
+            "main": 1,
+            "sub": 1
+          }
+        ],
+        "object_size": "1 Bit",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": true,
+          "read_on_init": false,
+          "transmit": true
+        },
+        "group_address_links": [
+          "1/1/63"
+        ]
+      },
+      "1.1.128/O-11_R-604": {
+        "name": "Eingang 2",
+        "number": 11,
+        "text": "PB3/4: Fönster led",
+        "function_text": "Dimming relative",
+        "description": "",
+        "device_address": "1.1.128",
+        "device_application": "M-0083_A-008B-25-CC83",
+        "module_def": null,
+        "channel": "CH-1",
+        "dpts": [
+          {
+            "main": 3,
+            "sub": 7
+          }
+        ],
+        "object_size": "4 Bit",
+        "flags": {
+          "read": false,
+          "write": false,
+          "communication": true,
+          "update": false,
+          "read_on_init": false,
+          "transmit": true
+        },
+        "group_address_links": [
+          "1/1/60"
+        ]
+      },
+      "1.1.128/O-13_R-605": {
+        "name": "Eingang 2",
+        "number": 13,
+        "text": "PB3/4: Fönster led",
+        "function_text": "State of dimming value for display",
+        "description": "",
+        "device_address": "1.1.128",
+        "device_application": "M-0083_A-008B-25-CC83",
+        "module_def": null,
+        "channel": "CH-1",
+        "dpts": [
+          {
+            "main": 5,
+            "sub": 1
+          }
+        ],
+        "object_size": "1 Byte",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": true,
+          "read_on_init": false,
+          "transmit": true
+        },
+        "group_address_links": [
+          "1/1/61"
+        ]
+      },
+      "1.1.128/O-23_R-1016": {
+        "name": "Eingang 4",
+        "number": 23,
+        "text": "PB5/6: Ledlist tak",
+        "function_text": "State of dimming value for display",
+        "description": "",
+        "device_address": "1.1.128",
+        "device_application": "M-0083_A-008B-25-CC83",
+        "module_def": null,
+        "channel": "CH-1",
+        "dpts": [
+          {
+            "main": 5,
+            "sub": 1
+          }
+        ],
+        "object_size": "1 Byte",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": true,
+          "read_on_init": false,
+          "transmit": true
+        },
+        "group_address_links": [
+          "1/1/65"
+        ]
+      },
+      "1.1.128/O-112_R-62": {
+        "name": "Time",
+        "number": 112,
+        "text": "Time",
+        "function_text": "Receive current value",
+        "description": "",
+        "device_address": "1.1.128",
+        "device_application": "M-0083_A-008B-25-CC83",
+        "module_def": null,
+        "channel": "CH-1",
+        "dpts": [
+          {
+            "main": 10,
+            "sub": 1
+          }
+        ],
+        "object_size": "3 Bytes",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": true,
+          "read_on_init": false,
+          "transmit": true
+        },
+        "group_address_links": [
+          "0/0/2"
+        ]
+      },
+      "1.1.128/O-114_R-64": {
+        "name": "DateTime",
+        "number": 114,
+        "text": "Time/Date",
+        "function_text": "Receive current values",
+        "description": "",
+        "device_address": "1.1.128",
+        "device_application": "M-0083_A-008B-25-CC83",
+        "module_def": null,
+        "channel": "CH-1",
+        "dpts": [
+          {
+            "main": 19,
+            "sub": 1
+          }
+        ],
+        "object_size": "8 Bytes",
+        "flags": {
+          "read": false,
+          "write": true,
+          "communication": true,
+          "update": true,
+          "read_on_init": false,
+          "transmit": true
+        },
+        "group_address_links": [
+          "0/0/1"
+        ]
+      }
+    },
+    "topology": {
+      "0": {
+        "name": "Backbone-område",
+        "description": null,
+        "lines": {
+          "0": {
+            "name": "Backbone-linje",
+            "description": null,
+            "devices": [],
+            "medium_type": "KNXnet/IP (IP)"
+          }
+        }
+      },
+      "1": {
+        "name": "Nytt område",
+        "description": null,
+        "lines": {
+          "0": {
+            "name": "Huvudlinje",
+            "description": null,
+            "devices": [],
+            "medium_type": "KNXnet/IP (IP)"
+          },
+          "1": {
+            "name": "Ny linje",
+            "description": null,
+            "devices": [
+              "1.1.1",
+              "1.1.2",
+              "1.1.3",
+              "1.1.4",
+              "1.1.5",
+              "1.1.6",
+              "1.1.7",
+              "1.1.100",
+              "1.1.101",
+              "1.1.102",
+              "1.1.104",
+              "1.1.105",
+              "1.1.107",
+              "1.1.123",
+              "1.1.124",
+              "1.1.125",
+              "1.1.126",
+              "1.1.127",
+              "1.1.128"
+            ],
+            "medium_type": "Twisted Pair (TP)"
+          }
+        }
+      }
+    },
+    "devices": {
+      "1.1.1": {
+        "name": "IP Schnittstelle",
+        "hardware_name": "IP Schnittstelle",
+        "order_number": "IPS100REG",
+        "description": "IP gränssnitt",
+        "manufacturer_name": "Albrecht Jung",
+        "individual_address": "1.1.1",
+        "application": "M-0004_A-7200-01-6756-O0001",
+        "project_uid": 111,
+        "communication_object_ids": [],
+        "channels": {}
+      },
+      "1.1.2": {
+        "name": "KNX uni.dim.actuat. LL REG-K/4x230/250 W",
+        "hardware_name": "KNX uni.dim.actuat. LL REG-K/4x230/250 W",
+        "order_number": "MEG6710-0004",
+        "description": "",
+        "manufacturer_name": "Merten",
+        "individual_address": "1.1.2",
+        "application": "M-000C_A-3245-11-6AD5",
+        "project_uid": 113,
+        "communication_object_ids": [
+          "1.1.2/O-1_R-18"
+        ],
+        "channels": {}
+      },
+      "1.1.3": {
+        "name": "KNX Heating Act. REG-K/6x24/230/0.16A",
+        "hardware_name": "KNX Heating Act. REG-K/6x24/230/0.16A",
+        "order_number": "MEG6730-0001",
+        "description": "",
+        "manufacturer_name": "Merten",
+        "individual_address": "1.1.3",
+        "application": "M-000C_A-2068-10-07B7-O000A",
+        "project_uid": 110,
+        "communication_object_ids": [
+          "1.1.3/O-20_R-22",
+          "1.1.3/O-70_R-41",
+          "1.1.3/O-120_R-65",
+          "1.1.3/O-170_R-89"
+        ],
+        "channels": {}
+      },
+      "1.1.4": {
+        "name": "Binäringång REG-K/ 8x230",
+        "hardware_name": "Binäringång REG-K/ 8x230",
+        "order_number": "MTN644692",
+        "description": "",
+        "manufacturer_name": "Schneider Electric Industries SAS",
+        "individual_address": "1.1.4",
+        "application": "M-0064_A-12BA-11-9C3D-O000C",
+        "project_uid": 115,
+        "communication_object_ids": [],
+        "channels": {}
+      },
+      "1.1.5": {
+        "name": "Steuereinheit 0-10 V REG-K/3f m. HB",
+        "hardware_name": "Steuereinheit 0-10 V REG-K/3f m. HB",
+        "order_number": "646991",
+        "description": "",
+        "manufacturer_name": "Merten",
+        "individual_address": "1.1.5",
+        "application": "M-000C_A-3211-11-16D2",
+        "project_uid": 114,
+        "communication_object_ids": [
+          "1.1.5/O-1_R-18",
+          "1.1.5/O-11_R-37",
+          "1.1.5/O-21_R-56",
+          "1.1.5/O-19_R-34",
+          "1.1.5/O-29_R-53"
+        ],
+        "channels": {}
+      },
+      "1.1.6": {
+        "name": "Brytaktor REG-K/12x230/10 med Handmanöver",
+        "hardware_name": "Brytaktor REG-K/12x230/10 med Handmanöver",
+        "order_number": "MTN649212",
+        "description": "",
+        "manufacturer_name": "Schneider Electric Industries SAS",
+        "individual_address": "1.1.6",
+        "application": "M-0064_A-4820-11-FAFB-O000C",
+        "project_uid": 116,
+        "communication_object_ids": [
+          "1.1.6/O-0_R-34",
+          "1.1.6/O-4_R-43",
+          "1.1.6/O-8_R-69",
+          "1.1.6/O-12_R-78",
+          "1.1.6/O-16_R-104",
+          "1.1.6/O-20_R-113",
+          "1.1.6/O-24_R-139",
+          "1.1.6/O-28_R-148",
+          "1.1.6/O-36_R-183",
+          "1.1.6/O-40_R-209",
+          "1.1.6/O-44_R-218",
+          "1.1.6/O-15_R-85",
+          "1.1.6/O-31_R-155",
+          "1.1.6/O-23_R-120"
+        ],
+        "channels": {}
+      },
+      "1.1.7": {
+        "name": "Schaltaktor REG-K/12x230/10 m. HB",
+        "hardware_name": "Schaltaktor REG-K/12x230/10 m. HB",
+        "order_number": "649212",
+        "description": "",
+        "manufacturer_name": "Merten",
+        "individual_address": "1.1.7",
+        "application": "M-000C_A-4820-11-CF98",
+        "project_uid": 112,
+        "communication_object_ids": [
+          "1.1.7/O-0_R-34",
+          "1.1.7/O-4_R-43",
+          "1.1.7/O-8_R-69",
+          "1.1.7/O-12_R-78",
+          "1.1.7/O-16_R-104",
+          "1.1.7/O-20_R-113",
+          "1.1.7/O-24_R-139",
+          "1.1.7/O-32_R-174",
+          "1.1.7/O-36_R-183",
+          "1.1.7/O-28_R-148",
+          "1.1.7/O-31_R-155"
+        ],
+        "channels": {}
+      },
+      "1.1.100": {
+        "name": "KNX Ljus & Temperatursensor",
+        "hardware_name": "KNX Ljus & Temperatursensor",
+        "order_number": "MTN663991",
+        "description": "",
+        "manufacturer_name": "Schneider Electric Industries SAS",
+        "individual_address": "1.1.100",
+        "application": "M-0064_A-2421-12-E8BE-O0048",
+        "project_uid": 128,
+        "communication_object_ids": [
+          "1.1.100/O-0_R-1",
+          "1.1.100/O-1_R-2",
+          "1.1.100/O-4_R-68"
+        ],
+        "channels": {}
+      },
+      "1.1.101": {
+        "name": "Tryckknapp 2-knapp plus, Exxact",
+        "hardware_name": "Tryckknapp 2-knapp plus, Exxact",
+        "order_number": "WDE004931",
+        "description": "",
+        "manufacturer_name": "Schneider Electric Industries SAS",
+        "individual_address": "1.1.101",
+        "application": "M-0064_A-1815-11-A6B3-O000C",
+        "project_uid": 119,
+        "communication_object_ids": [],
+        "channels": {}
+      },
+      "1.1.102": {
+        "name": "Rumsregulator Trend Flex",
+        "hardware_name": "Rumsregulator Trend Flex",
+        "order_number": "249 // CCT101xx RTR",
+        "description": "",
+        "manufacturer_name": "Schneider Electric (MG)",
+        "individual_address": "1.1.102",
+        "application": "M-00F9_A-4774-10-894C-O001E",
+        "project_uid": 118,
+        "communication_object_ids": [
+          "1.1.102/O-47_R-3330",
+          "1.1.102/O-48_R-3329",
+          "1.1.102/O-53_R-3332",
+          "1.1.102/O-54_R-3333",
+          "1.1.102/O-56_R-3335",
+          "1.1.102/O-18_R-3481",
+          "1.1.102/O-51_R-3282"
+        ],
+        "channels": {}
+      },
+      "1.1.104": {
+        "name": "Tryckknapp Trend Flex Sovrum",
+        "hardware_name": "Tryckknapp Trend Flex",
+        "order_number": "249 // CCT101xx PB",
+        "description": "",
+        "manufacturer_name": "Schneider Electric (MG)",
+        "individual_address": "1.1.104",
+        "application": "M-00F9_A-4708-10-D649-O001E",
+        "project_uid": 140,
+        "communication_object_ids": [
+          "1.1.104/O-18_R-783"
+        ],
+        "channels": {}
+      },
+      "1.1.105": {
+        "name": "Tryckknapp Trend Flex Bibliotek",
+        "hardware_name": "Tryckknapp Trend Flex",
+        "order_number": "249 // CCT101xx PB",
+        "description": "",
+        "manufacturer_name": "Schneider Electric (MG)",
+        "individual_address": "1.1.105",
+        "application": "M-00F9_A-4708-10-D649-O001E",
+        "project_uid": 141,
+        "communication_object_ids": [
+          "1.1.105/O-0_R-955"
+        ],
+        "channels": {}
+      },
+      "1.1.107": {
+        "name": "Tryckknapp Trend Flex Kök",
+        "hardware_name": "Tryckknapp Trend Flex",
+        "order_number": "249 // CCT101xx PB",
+        "description": "",
+        "manufacturer_name": "Schneider Electric (MG)",
+        "individual_address": "1.1.107",
+        "application": "M-00F9_A-4708-10-D649-O001E",
+        "project_uid": 144,
+        "communication_object_ids": [
+          "1.1.107/O-6_R-1049",
+          "1.1.107/O-0_R-973",
+          "1.1.107/O-3_R-978",
+          "1.1.107/O-9_R-1083",
+          "1.1.107/O-13_R-1139"
+        ],
+        "channels": {}
+      },
+      "1.1.123": {
+        "name": "Tryckknapp Trend Flex Kontor",
+        "hardware_name": "Tryckknapp Trend Flex",
+        "order_number": "249 // CCT101xx PB",
+        "description": "",
+        "manufacturer_name": "Schneider Electric (MG)",
+        "individual_address": "1.1.123",
+        "application": "M-00F9_A-4708-10-D649-O001E",
+        "project_uid": 142,
+        "communication_object_ids": [
+          "1.1.123/O-0_R-955"
+        ],
+        "channels": {}
+      },
+      "1.1.124": {
+        "name": "Tryckknapp 2-knapp plus, Exxact Hobbyrum vid dörr till entrehall",
+        "hardware_name": "Tryckknapp 2-knapp plus, Exxact",
+        "order_number": "WDE004931",
+        "description": "",
+        "manufacturer_name": "Schneider Electric Industries SAS",
+        "individual_address": "1.1.124",
+        "application": "M-0064_A-1815-11-A6B3-O000C",
+        "project_uid": 145,
+        "communication_object_ids": [],
+        "channels": {}
+      },
+      "1.1.125": {
+        "name": "Tryckknapp 2-knapp plus, Exxact Hobbyrum vid port",
+        "hardware_name": "Tryckknapp 2-knapp plus, Exxact",
+        "order_number": "WDE004931",
+        "description": "",
+        "manufacturer_name": "Schneider Electric Industries SAS",
+        "individual_address": "1.1.125",
+        "application": "M-0064_A-1815-11-A6B3-O000C",
+        "project_uid": 146,
+        "communication_object_ids": [],
+        "channels": {}
+      },
+      "1.1.126": {
+        "name": "Tryckknapp Trend Flex Vardagsrum",
+        "hardware_name": "Tryckknapp Trend Flex",
+        "order_number": "249 // CCT101xx PB",
+        "description": "",
+        "manufacturer_name": "Schneider Electric (MG)",
+        "individual_address": "1.1.126",
+        "application": "M-00F9_A-4708-10-D649-O001E",
+        "project_uid": 117,
+        "communication_object_ids": [
+          "1.1.126/O-0_R-955",
+          "1.1.126/O-12_R-1116"
+        ],
+        "channels": {}
+      },
+      "1.1.127": {
+        "name": "BE-GBZx.01 Glass Central Operation Unit Smart",
+        "hardware_name": "BE-GBZx.01 Glass Central Operation Unit Smart",
+        "order_number": "BE-GBZx.01",
+        "description": "",
+        "manufacturer_name": "MDT technologies",
+        "individual_address": "1.1.127",
+        "application": "M-0083_A-0054-11-9C09",
+        "project_uid": 194,
+        "communication_object_ids": [
+          "1.1.127/O-8_R-69",
+          "1.1.127/O-153_R-140",
+          "1.1.127/O-5_R-67",
+          "1.1.127/O-3_R-1061",
+          "1.1.127/O-1_R-1055",
+          "1.1.127/O-16_R-1090",
+          "1.1.127/O-18_R-1091",
+          "1.1.127/O-125_R-4",
+          "1.1.127/O-127_R-6"
+        ],
+        "channels": {
+          "CH-2": {
+            "identifier": "CH-2",
+            "name": "Temperature/Ventilation",
+            "communication_object_ids": [
+              "1.1.127/O-145_R-61",
+              "1.1.127/O-151_R-91",
+              "1.1.127/O-156_R-92",
+              "1.1.127/O-157_R-93",
+              "1.1.127/O-168_R-96",
+              "1.1.127/O-172_R-95",
+              "1.1.127/O-169_R-97",
+              "1.1.127/O-171_R-98",
+              "1.1.127/O-158_R-94",
+              "1.1.127/O-173_R-102",
+              "1.1.127/O-161_R-105",
+              "1.1.127/O-153_R-140"
+            ]
+          },
+          "CH-5": {
+            "identifier": "CH-5",
+            "name": "Menu and time switch functions",
+            "communication_object_ids": [
+              "1.1.127/O-0_R-1054",
+              "1.1.127/O-2_R-998",
+              "1.1.127/O-1_R-1055",
+              "1.1.127/O-3_R-1061",
+              "1.1.127/O-5_R-67",
+              "1.1.127/O-8_R-69",
+              "1.1.127/O-12_R-920",
+              "1.1.127/O-10_R-924",
+              "1.1.127/O-13_R-925",
+              "1.1.127/O-15_R-1086",
+              "1.1.127/O-17_R-1089",
+              "1.1.127/O-16_R-1090",
+              "1.1.127/O-18_R-1091"
+            ]
+          },
+          "CH-6": {
+            "identifier": "CH-6",
+            "name": "Status LED",
+            "communication_object_ids": [
+              "1.1.127/O-186_R-68",
+              "1.1.127/O-187_R-72",
+              "1.1.127/O-188_R-76",
+              "1.1.127/O-189_R-80",
+              "1.1.127/O-190_R-84",
+              "1.1.127/O-191_R-88"
+            ]
+          }
+        }
+      },
+      "1.1.128": {
+        "name": "BE-GT20x.01 Glass Push Button II Smart",
+        "hardware_name": "BE-GT20x.01 Glass Push Button II Smart",
+        "order_number": "BE-GT20x.01",
+        "description": "",
+        "manufacturer_name": "MDT technologies",
+        "individual_address": "1.1.128",
+        "application": "M-0083_A-008B-25-CC83",
+        "project_uid": 207,
+        "communication_object_ids": [
+          "1.1.128/O-21_R-1015",
+          "1.1.128/O-0_R-38",
+          "1.1.128/O-3_R-21",
+          "1.1.128/O-11_R-604",
+          "1.1.128/O-13_R-605",
+          "1.1.128/O-23_R-1016",
+          "1.1.128/O-112_R-62",
+          "1.1.128/O-114_R-64"
+        ],
+        "channels": {
+          "CH-1": {
+            "identifier": "CH-1",
+            "name": "Operation / Display",
+            "communication_object_ids": [
+              "1.1.128/O-112_R-62",
+              "1.1.128/O-114_R-64",
+              "1.1.128/O-126_R-29",
+              "1.1.128/O-106_R-7",
+              "1.1.128/O-107_R-5",
+              "1.1.128/O-119_R-224",
+              "1.1.128/O-120_R-230",
+              "1.1.128/O-121_R-114",
+              "1.1.128/O-0_R-38",
+              "1.1.128/O-3_R-21",
+              "1.1.128/O-10_R-603",
+              "1.1.128/O-11_R-604",
+              "1.1.128/O-13_R-605",
+              "1.1.128/O-20_R-1014",
+              "1.1.128/O-21_R-1015",
+              "1.1.128/O-23_R-1016"
+            ]
+          }
+        }
+      }
+    },
+    "group_addresses": {
+      "0/0/1": {
+        "name": "Datum",
+        "identifier": "GA-53",
+        "raw_address": 1,
+        "address": "0/0/1",
+        "project_uid": 209,
+        "dpt": {
+          "main": 19,
+          "sub": 1
+        },
+        "data_secure": false,
+        "communication_object_ids": [
+          "1.1.127/O-127_R-6",
+          "1.1.128/O-114_R-64"
+        ],
+        "description": "",
+        "comment": ""
+      },
+      "0/0/2": {
+        "name": "Tid",
+        "identifier": "GA-54",
+        "raw_address": 2,
+        "address": "0/0/2",
+        "project_uid": 210,
+        "dpt": {
+          "main": 10,
+          "sub": 1
+        },
+        "data_secure": false,
+        "communication_object_ids": [
+          "1.1.127/O-125_R-4",
+          "1.1.128/O-112_R-62"
+        ],
+        "description": "",
+        "comment": ""
+      },
+      "0/0/3": {
+        "name": "Datum",
+        "identifier": "GA-55",
+        "raw_address": 3,
+        "address": "0/0/3",
+        "project_uid": 211,
+        "dpt": null,
+        "data_secure": false,
+        "communication_object_ids": [],
+        "description": "",
+        "comment": ""
+      },
+      "0/1/0": {
+        "name": "Tänd/släck all belysning",
+        "identifier": "GA-11",
+        "raw_address": 256,
+        "address": "0/1/0",
+        "project_uid": 139,
+        "dpt": {
+          "main": 1,
+          "sub": null
+        },
+        "data_secure": false,
+        "communication_object_ids": [
+          "1.1.6/O-0_R-34",
+          "1.1.6/O-8_R-69",
+          "1.1.6/O-12_R-78",
+          "1.1.6/O-20_R-113",
+          "1.1.6/O-28_R-148",
+          "1.1.6/O-40_R-209",
+          "1.1.6/O-44_R-218",
+          "1.1.7/O-0_R-34",
+          "1.1.7/O-4_R-43",
+          "1.1.7/O-8_R-69",
+          "1.1.7/O-12_R-78",
+          "1.1.7/O-16_R-104",
+          "1.1.102/O-18_R-3481",
+          "1.1.104/O-18_R-783"
+        ],
+        "description": "",
+        "comment": ""
+      },
+      "0/1/1": {
+        "name": "Skymningsfunktion",
+        "identifier": "GA-23",
+        "raw_address": 257,
+        "address": "0/1/1",
+        "project_uid": 160,
+        "dpt": {
+          "main": 1,
+          "sub": null
+        },
+        "data_secure": false,
+        "communication_object_ids": [
+          "1.1.6/O-4_R-43",
+          "1.1.6/O-16_R-104",
+          "1.1.6/O-24_R-139",
+          "1.1.6/O-36_R-183",
+          "1.1.7/O-20_R-113",
+          "1.1.7/O-24_R-139",
+          "1.1.7/O-32_R-174",
+          "1.1.7/O-36_R-183",
+          "1.1.100/O-4_R-68"
+        ],
+        "description": "",
+        "comment": ""
+      },
+      "0/1/2": {
+        "name": "Ljusvärde (ärvärde)",
+        "identifier": "GA-26",
+        "raw_address": 258,
+        "address": "0/1/2",
+        "project_uid": 163,
+        "dpt": null,
+        "data_secure": false,
+        "communication_object_ids": [
+          "1.1.100/O-0_R-1"
+        ],
+        "description": "",
+        "comment": ""
+      },
+      "0/2/0": {
+        "name": "Ute husgavel Ärvärde Temp",
+        "identifier": "GA-14",
+        "raw_address": 512,
+        "address": "0/2/0",
+        "project_uid": 151,
+        "dpt": {
+          "main": 9,
+          "sub": 1
+        },
+        "data_secure": false,
+        "communication_object_ids": [
+          "1.1.100/O-1_R-2",
+          "1.1.102/O-56_R-3335"
+        ],
+        "description": "",
+        "comment": ""
+      },
+      "1/1/0": {
+        "name": "Rum 101 Kontor Takbelysning T/S",
+        "identifier": "GA-12",
+        "raw_address": 2304,
+        "address": "1/1/0",
+        "project_uid": 148,
+        "dpt": {
+          "main": 1,
+          "sub": null
+        },
+        "data_secure": false,
+        "communication_object_ids": [
+          "1.1.6/O-12_R-78",
+          "1.1.123/O-0_R-955"
+        ],
+        "description": "Kontor Takbelysning",
+        "comment": ""
+      },
+      "1/1/3": {
+        "name": "Rum 101 Kontor Takbelysning Status T/F",
+        "identifier": "GA-13",
+        "raw_address": 2307,
+        "address": "1/1/3",
+        "project_uid": 149,
+        "dpt": {
+          "main": 1,
+          "sub": null
+        },
+        "data_secure": false,
+        "communication_object_ids": [
+          "1.1.6/O-15_R-85"
+        ],
+        "description": "Kontor Takbelysning",
+        "comment": ""
+      },
+      "1/1/20": {
+        "name": "Rum 102 Bibliotek Takbelysning T/S",
+        "identifier": "GA-38",
+        "raw_address": 2324,
+        "address": "1/1/20",
+        "project_uid": 188,
+        "dpt": {
+          "main": 1,
+          "sub": null
+        },
+        "data_secure": false,
+        "communication_object_ids": [
+          "1.1.6/O-20_R-113",
+          "1.1.105/O-0_R-955"
+        ],
+        "description": "Bibliotek Takbelysning",
+        "comment": ""
+      },
+      "1/1/23": {
+        "name": "Rum 102 Bibliotek Takbelysning Status T/F",
+        "identifier": "GA-22",
+        "raw_address": 2327,
+        "address": "1/1/23",
+        "project_uid": 159,
+        "dpt": {
+          "main": 1,
+          "sub": null
+        },
+        "data_secure": false,
+        "communication_object_ids": [
+          "1.1.6/O-23_R-120"
+        ],
+        "description": "",
+        "comment": ""
+      },
+      "1/1/30": {
+        "name": "Rum 103 Vardagsrum Takbelysning T/S",
+        "identifier": "GA-21",
+        "raw_address": 2334,
+        "address": "1/1/30",
+        "project_uid": 158,
+        "dpt": {
+          "main": 1,
+          "sub": null
+        },
+        "data_secure": false,
+        "communication_object_ids": [
+          "1.1.6/O-28_R-148",
+          "1.1.126/O-0_R-955"
+        ],
+        "description": "",
+        "comment": ""
+      },
+      "1/1/31": {
+        "name": "Rum 103 Vardagsrum Uterum bel. T/S",
+        "identifier": "GA-24",
+        "raw_address": 2335,
+        "address": "1/1/31",
+        "project_uid": 161,
+        "dpt": {
+          "main": 1,
+          "sub": null
+        },
+        "data_secure": false,
+        "communication_object_ids": [
+          "1.1.7/O-28_R-148",
+          "1.1.126/O-12_R-1116"
+        ],
+        "description": "",
+        "comment": ""
+      },
+      "1/1/33": {
+        "name": "Rum 103 Vardagsrum Takbelysning Status T/F",
+        "identifier": "GA-40",
+        "raw_address": 2337,
+        "address": "1/1/33",
+        "project_uid": 192,
+        "dpt": {
+          "main": 1,
+          "sub": null
+        },
+        "data_secure": false,
+        "communication_object_ids": [
+          "1.1.6/O-31_R-155"
+        ],
+        "description": "",
+        "comment": ""
+      },
+      "1/1/34": {
+        "name": "Rum 103 Vardagsrum Uterum Status T/F",
+        "identifier": "GA-25",
+        "raw_address": 2338,
+        "address": "1/1/34",
+        "project_uid": 162,
+        "dpt": null,
+        "data_secure": false,
+        "communication_object_ids": [],
+        "description": "",
+        "comment": ""
+      },
+      "1/1/50": {
+        "name": "Rum 105 Kök Bordsbelysning T/S",
+        "identifier": "GA-27",
+        "raw_address": 2354,
+        "address": "1/1/50",
+        "project_uid": 164,
+        "dpt": {
+          "main": 1,
+          "sub": null
+        },
+        "data_secure": false,
+        "communication_object_ids": [
+          "1.1.7/O-12_R-78",
+          "1.1.107/O-0_R-973"
+        ],
+        "description": "",
+        "comment": ""
+      },
+      "1/1/51": {
+        "name": "Rum 105 Kök Belysningskena L1 T/S",
+        "identifier": "GA-28",
+        "raw_address": 2355,
+        "address": "1/1/51",
+        "project_uid": 165,
+        "dpt": {
+          "main": 1,
+          "sub": null
+        },
+        "data_secure": false,
+        "communication_object_ids": [
+          "1.1.7/O-0_R-34",
+          "1.1.107/O-3_R-978"
+        ],
+        "description": "",
+        "comment": ""
+      },
+      "1/1/52": {
+        "name": "Rum 105 Kök Belysningskena L2 T/S",
+        "identifier": "GA-29",
+        "raw_address": 2356,
+        "address": "1/1/52",
+        "project_uid": 166,
+        "dpt": {
+          "main": 1,
+          "sub": null
+        },
+        "data_secure": false,
+        "communication_object_ids": [
+          "1.1.7/O-4_R-43",
+          "1.1.107/O-6_R-1049"
+        ],
+        "description": "",
+        "comment": ""
+      },
+      "1/1/53": {
+        "name": "Rum 105 Kök Belysningskena L3 T/S",
+        "identifier": "GA-30",
+        "raw_address": 2357,
+        "address": "1/1/53",
+        "project_uid": 167,
+        "dpt": {
+          "main": 1,
+          "sub": null
+        },
+        "data_secure": false,
+        "communication_object_ids": [
+          "1.1.7/O-8_R-69",
+          "1.1.107/O-9_R-1083"
+        ],
+        "description": "",
+        "comment": ""
+      },
+      "1/1/54": {
+        "name": "Rum 105 Kök Bänkbelysning Dimbar",
+        "identifier": "GA-31",
+        "raw_address": 2358,
+        "address": "1/1/54",
+        "project_uid": 168,
+        "dpt": {
+          "main": 3,
+          "sub": null
+        },
+        "data_secure": false,
+        "communication_object_ids": [
+          "1.1.5/O-1_R-18",
+          "1.1.107/O-13_R-1139"
+        ],
+        "description": "",
+        "comment": ""
+      },
+      "1/1/55": {
+        "name": "Rum 102 Bibliotek Takbelysning Status T/F",
+        "identifier": "GA-39",
+        "raw_address": 2359,
+        "address": "1/1/55",
+        "project_uid": 190,
+        "dpt": null,
+        "data_secure": false,
+        "communication_object_ids": [],
+        "description": "Bibliotek Takbelysning",
+        "comment": ""
+      },
+      "1/1/60": {
+        "name": "Rum 106 Uterum Fönster Led dimbar",
+        "identifier": "GA-41",
+        "raw_address": 2364,
+        "address": "1/1/60",
+        "project_uid": 195,
+        "dpt": {
+          "main": 3,
+          "sub": 7
+        },
+        "data_secure": false,
+        "communication_object_ids": [
+          "1.1.5/O-11_R-37",
+          "1.1.127/O-1_R-1055",
+          "1.1.128/O-11_R-604"
+        ],
+        "description": "",
+        "comment": ""
+      },
+      "1/1/61": {
+        "name": "Rum 106 Uterum Dimmervärde",
+        "identifier": "GA-42",
+        "raw_address": 2365,
+        "address": "1/1/61",
+        "project_uid": 196,
+        "dpt": {
+          "main": 5,
+          "sub": 1
+        },
+        "data_secure": false,
+        "communication_object_ids": [
+          "1.1.5/O-19_R-34",
+          "1.1.127/O-3_R-1061",
+          "1.1.128/O-13_R-605"
+        ],
+        "description": "",
+        "comment": ""
+      },
+      "1/1/62": {
+        "name": "Rum 106 Uterum Spotlights T/S",
+        "identifier": "GA-43",
+        "raw_address": 2366,
+        "address": "1/1/62",
+        "project_uid": 197,
+        "dpt": {
+          "main": 1,
+          "sub": 1
+        },
+        "data_secure": false,
+        "communication_object_ids": [
+          "1.1.7/O-28_R-148",
+          "1.1.127/O-5_R-67",
+          "1.1.128/O-0_R-38"
+        ],
+        "description": "",
+        "comment": ""
+      },
+      "1/1/63": {
+        "name": "Rum 106 Uterum Spotlights T/F",
+        "identifier": "GA-44",
+        "raw_address": 2367,
+        "address": "1/1/63",
+        "project_uid": 198,
+        "dpt": {
+          "main": 1,
+          "sub": 1
+        },
+        "data_secure": false,
+        "communication_object_ids": [
+          "1.1.7/O-31_R-155",
+          "1.1.127/O-8_R-69",
+          "1.1.128/O-3_R-21"
+        ],
+        "description": "",
+        "comment": ""
+      },
+      "1/1/64": {
+        "name": "Rum 106 Uterum Ledlist dimbar",
+        "identifier": "GA-49",
+        "raw_address": 2368,
+        "address": "1/1/64",
+        "project_uid": 203,
+        "dpt": {
+          "main": 3,
+          "sub": 7
+        },
+        "data_secure": false,
+        "communication_object_ids": [
+          "1.1.2/O-1_R-18",
+          "1.1.5/O-21_R-56",
+          "1.1.127/O-16_R-1090",
+          "1.1.128/O-21_R-1015"
+        ],
+        "description": "",
+        "comment": ""
+      },
+      "1/1/65": {
+        "name": "Rum 106 Uterum Ledlist Dimmervärde",
+        "identifier": "GA-50",
+        "raw_address": 2369,
+        "address": "1/1/65",
+        "project_uid": 204,
+        "dpt": {
+          "main": 5,
+          "sub": 1
+        },
+        "data_secure": false,
+        "communication_object_ids": [
+          "1.1.5/O-29_R-53",
+          "1.1.127/O-18_R-1091",
+          "1.1.128/O-23_R-1016"
+        ],
+        "description": "",
+        "comment": ""
+      },
+      "1/1/67": {
+        "name": "Rum 106 Uterum Spotlights T/F",
+        "identifier": "GA-51",
+        "raw_address": 2371,
+        "address": "1/1/67",
+        "project_uid": 205,
+        "dpt": {
+          "main": 1,
+          "sub": 1
+        },
+        "data_secure": false,
+        "communication_object_ids": [],
+        "description": "",
+        "comment": ""
+      },
+      "1/1/68": {
+        "name": "Rum 106 Uterum Spotlights T/F",
+        "identifier": "GA-52",
+        "raw_address": 2372,
+        "address": "1/1/68",
+        "project_uid": 206,
+        "dpt": {
+          "main": 1,
+          "sub": 1
+        },
+        "data_secure": false,
+        "communication_object_ids": [],
+        "description": "",
+        "comment": ""
+      },
+      "1/2/0": {
+        "name": "Rum 101 Entre Klimat Ärvärde Temp",
+        "identifier": "GA-3",
+        "raw_address": 2560,
+        "address": "1/2/0",
+        "project_uid": 129,
+        "dpt": null,
+        "data_secure": false,
+        "communication_object_ids": [],
+        "description": "",
+        "comment": ""
+      },
+      "1/2/1": {
+        "name": "Rum 101 Entre Klimat Börvärde Temp(Basbörvärde)",
+        "identifier": "GA-4",
+        "raw_address": 2561,
+        "address": "1/2/1",
+        "project_uid": 130,
+        "dpt": null,
+        "data_secure": false,
+        "communication_object_ids": [
+          "1.1.102/O-53_R-3332"
+        ],
+        "description": "",
+        "comment": ""
+      },
+      "1/2/2": {
+        "name": "Rum 101 Entre Klimat Status Börvärde Temp",
+        "identifier": "GA-5",
+        "raw_address": 2562,
+        "address": "1/2/2",
+        "project_uid": 131,
+        "dpt": null,
+        "data_secure": false,
+        "communication_object_ids": [
+          "1.1.102/O-54_R-3333"
+        ],
+        "description": "",
+        "comment": ""
+      },
+      "1/2/3": {
+        "name": "Rum 101 Entre Klimat Styrsignal Värme",
+        "identifier": "GA-6",
+        "raw_address": 2563,
+        "address": "1/2/3",
+        "project_uid": 132,
+        "dpt": {
+          "main": 1,
+          "sub": 1
+        },
+        "data_secure": false,
+        "communication_object_ids": [
+          "1.1.3/O-20_R-22",
+          "1.1.3/O-70_R-41",
+          "1.1.3/O-120_R-65",
+          "1.1.102/O-51_R-3282"
+        ],
+        "description": "",
+        "comment": ""
+      },
+      "1/2/4": {
+        "name": "Rum 101 Entre Klimat Styrsignal Kyla",
+        "identifier": "GA-7",
+        "raw_address": 2564,
+        "address": "1/2/4",
+        "project_uid": 133,
+        "dpt": null,
+        "data_secure": false,
+        "communication_object_ids": [],
+        "description": "",
+        "comment": ""
+      },
+      "1/2/5": {
+        "name": "Rum 101 Entre Klimat Komfort/Standby",
+        "identifier": "GA-8",
+        "raw_address": 2565,
+        "address": "1/2/5",
+        "project_uid": 134,
+        "dpt": {
+          "main": 1,
+          "sub": null
+        },
+        "data_secure": false,
+        "communication_object_ids": [
+          "1.1.102/O-47_R-3330"
+        ],
+        "description": "",
+        "comment": ""
+      },
+      "1/2/6": {
+        "name": "Rum 101 Entre Klimat Nattsänkning",
+        "identifier": "GA-9",
+        "raw_address": 2566,
+        "address": "1/2/6",
+        "project_uid": 135,
+        "dpt": {
+          "main": 1,
+          "sub": null
+        },
+        "data_secure": false,
+        "communication_object_ids": [
+          "1.1.102/O-48_R-3329"
+        ],
+        "description": "",
+        "comment": ""
+      },
+      "1/2/7": {
+        "name": "Rum 101 Entre Klimat Fläktsteg",
+        "identifier": "GA-10",
+        "raw_address": 2567,
+        "address": "1/2/7",
+        "project_uid": 136,
+        "dpt": null,
+        "data_secure": false,
+        "communication_object_ids": [],
+        "description": "",
+        "comment": ""
+      },
+      "1/2/60": {
+        "name": "Rum 106 Uterum Klimat Börvärde Temp(Basbörvärde)",
+        "identifier": "GA-45",
+        "raw_address": 2620,
+        "address": "1/2/60",
+        "project_uid": 199,
+        "dpt": null,
+        "data_secure": false,
+        "communication_object_ids": [],
+        "description": "",
+        "comment": ""
+      },
+      "1/2/61": {
+        "name": "Rum 106 Uterum Klimat Status Börvärde Temp",
+        "identifier": "GA-46",
+        "raw_address": 2621,
+        "address": "1/2/61",
+        "project_uid": 200,
+        "dpt": null,
+        "data_secure": false,
+        "communication_object_ids": [],
+        "description": "",
+        "comment": ""
+      },
+      "1/2/62": {
+        "name": "Rum 106 Uterum Klimat Styrsignal Värme",
+        "identifier": "GA-47",
+        "raw_address": 2622,
+        "address": "1/2/62",
+        "project_uid": 201,
+        "dpt": {
+          "main": 1,
+          "sub": 1
+        },
+        "data_secure": false,
+        "communication_object_ids": [
+          "1.1.3/O-170_R-89",
+          "1.1.127/O-153_R-140"
+        ],
+        "description": "",
+        "comment": ""
+      },
+      "1/2/63": {
+        "name": "Rum 106 Uterum",
+        "identifier": "GA-48",
+        "raw_address": 2623,
+        "address": "1/2/63",
+        "project_uid": 202,
+        "dpt": null,
+        "data_secure": false,
+        "communication_object_ids": [],
+        "description": "",
+        "comment": ""
+      },
+      "1/3/0": {
+        "name": "brytare",
+        "identifier": "GA-32",
+        "raw_address": 2816,
+        "address": "1/3/0",
+        "project_uid": 171,
+        "dpt": {
+          "main": 1,
+          "sub": 1
+        },
+        "data_secure": false,
+        "communication_object_ids": [],
+        "description": "Badrum Takbelysning (1)",
+        "comment": ""
+      },
+      "1/3/1": {
+        "name": "Status",
+        "identifier": "GA-33",
+        "raw_address": 2817,
+        "address": "1/3/1",
+        "project_uid": 173,
+        "dpt": {
+          "main": 1,
+          "sub": 1
+        },
+        "data_secure": false,
+        "communication_object_ids": [],
+        "description": "Badrum Takbelysning (1)",
+        "comment": ""
+      },
+      "1/4/0": {
+        "name": "brytare",
+        "identifier": "GA-36",
+        "raw_address": 3072,
+        "address": "1/4/0",
+        "project_uid": 184,
+        "dpt": {
+          "main": 1,
+          "sub": 1
+        },
+        "data_secure": false,
+        "communication_object_ids": [],
+        "description": "Bibliotek Takbelysning",
+        "comment": ""
+      },
+      "1/4/1": {
+        "name": "Status",
+        "identifier": "GA-37",
+        "raw_address": 3073,
+        "address": "1/4/1",
+        "project_uid": 186,
+        "dpt": {
+          "main": 1,
+          "sub": 1
+        },
+        "data_secure": false,
+        "communication_object_ids": [],
+        "description": "Bibliotek Takbelysning",
+        "comment": ""
+      }
+    },
+    "group_ranges": {
+      "0": {
+        "name": "Centrala funktioner",
+        "address_start": 1,
+        "address_end": 2047,
+        "group_addresses": [],
+        "comment": "",
+        "group_ranges": {
+          "0/0": {
+            "name": "Tid och datum",
+            "address_start": 1,
+            "address_end": 255,
+            "group_addresses": [
+              "0/0/1",
+              "0/0/2",
+              "0/0/3"
+            ],
+            "comment": "",
+            "group_ranges": {}
+          },
+          "0/1": {
+            "name": "Belysning",
+            "address_start": 256,
+            "address_end": 511,
+            "group_addresses": [
+              "0/1/0",
+              "0/1/1",
+              "0/1/2"
+            ],
+            "comment": "",
+            "group_ranges": {}
+          },
+          "0/2": {
+            "name": "Klimatstyrning",
+            "address_start": 512,
+            "address_end": 767,
+            "group_addresses": [
+              "0/2/0"
+            ],
+            "comment": "",
+            "group_ranges": {}
+          }
+        }
+      },
+      "1": {
+        "name": "Entreplan",
+        "address_start": 2048,
+        "address_end": 4095,
+        "group_addresses": [],
+        "comment": "",
+        "group_ranges": {
+          "1/1": {
+            "name": "Belysning",
+            "address_start": 2304,
+            "address_end": 2559,
+            "group_addresses": [
+              "1/1/0",
+              "1/1/3",
+              "1/1/30",
+              "1/1/23",
+              "1/1/31",
+              "1/1/34",
+              "1/1/50",
+              "1/1/51",
+              "1/1/52",
+              "1/1/53",
+              "1/1/54",
+              "1/1/20",
+              "1/1/55",
+              "1/1/33",
+              "1/1/60",
+              "1/1/61",
+              "1/1/62",
+              "1/1/63",
+              "1/1/64",
+              "1/1/65",
+              "1/1/67",
+              "1/1/68"
+            ],
+            "comment": "",
+            "group_ranges": {}
+          },
+          "1/2": {
+            "name": "Klimatstyrning",
+            "address_start": 2560,
+            "address_end": 2815,
+            "group_addresses": [
+              "1/2/0",
+              "1/2/1",
+              "1/2/2",
+              "1/2/3",
+              "1/2/4",
+              "1/2/5",
+              "1/2/6",
+              "1/2/7",
+              "1/2/60",
+              "1/2/61",
+              "1/2/62",
+              "1/2/63"
+            ],
+            "comment": "",
+            "group_ranges": {}
+          },
+          "1/3": {
+            "name": "Ny mellangrupp",
+            "address_start": 2816,
+            "address_end": 3071,
+            "group_addresses": [
+              "1/3/0",
+              "1/3/1"
+            ],
+            "comment": "",
+            "group_ranges": {}
+          },
+          "1/4": {
+            "name": "Ny mellangrupp",
+            "address_start": 3072,
+            "address_end": 3327,
+            "group_addresses": [
+              "1/4/0",
+              "1/4/1"
+            ],
+            "comment": "",
+            "group_ranges": {}
+          }
+        }
+      }
+    },
+    "locations": {
+      "Enfamiljshus": {
+        "type": "Building",
+        "identifier": "P-0628-0_BP-1",
+        "name": "Enfamiljshus",
+        "usage_id": null,
+        "usage_text": "",
+        "number": "",
+        "description": "",
+        "project_uid": 6,
+        "devices": [],
+        "spaces": {
+          "Bottenvåning": {
+            "type": "Floor",
+            "identifier": "P-0628-0_BP-2",
+            "name": "Bottenvåning",
+            "usage_id": null,
+            "usage_text": "",
+            "number": "",
+            "description": "",
+            "project_uid": 7,
+            "devices": [],
+            "spaces": {
+              "Vardagsrum": {
+                "type": "Room",
+                "identifier": "P-0628-0_BP-3",
+                "name": "Vardagsrum",
+                "usage_id": "SU-4",
+                "usage_text": "Vardagsrum",
+                "number": "",
+                "description": "",
+                "project_uid": 8,
+                "devices": [
+                  "1.1.126"
+                ],
+                "spaces": {},
+                "functions": [
+                  "F-1"
+                ]
+              },
+              "Kök": {
+                "type": "Room",
+                "identifier": "P-0628-0_BP-4",
+                "name": "Kök",
+                "usage_id": "SU-1",
+                "usage_text": "Kök",
+                "number": "",
+                "description": "",
+                "project_uid": 9,
+                "devices": [
+                  "1.1.107"
+                ],
+                "spaces": {},
+                "functions": [
+                  "F-2"
+                ]
+              },
+              "Gästtoalett": {
+                "type": "Room",
+                "identifier": "P-0628-0_BP-5",
+                "name": "Gästtoalett",
+                "usage_id": "SU-7",
+                "usage_text": "Badrum",
+                "number": "",
+                "description": "",
+                "project_uid": 10,
+                "devices": [],
+                "spaces": {},
+                "functions": []
+              },
+              "Entrehall": {
+                "type": "Room",
+                "identifier": "P-0628-0_BP-6",
+                "name": "Entrehall",
+                "usage_id": "SU-8",
+                "usage_text": "Hall",
+                "number": "",
+                "description": "",
+                "project_uid": 11,
+                "devices": [
+                  "1.1.102"
+                ],
+                "spaces": {},
+                "functions": [
+                  "F-3"
+                ]
+              },
+              "Förråd": {
+                "type": "Room",
+                "identifier": "P-0628-0_BP-7",
+                "name": "Förråd",
+                "usage_id": "SU-17",
+                "usage_text": "Lagerlokal",
+                "number": "",
+                "description": "",
+                "project_uid": 12,
+                "devices": [],
+                "spaces": {},
+                "functions": []
+              },
+              "Sovrum": {
+                "type": "Room",
+                "identifier": "P-0628-0_BP-8",
+                "name": "Sovrum",
+                "usage_id": "SU-2",
+                "usage_text": "Sovrum",
+                "number": "",
+                "description": "",
+                "project_uid": 13,
+                "devices": [
+                  "1.1.104"
+                ],
+                "spaces": {},
+                "functions": [
+                  "F-4"
+                ]
+              },
+              "Kontor": {
+                "type": "Room",
+                "identifier": "P-0628-0_BP-9",
+                "name": "Kontor",
+                "usage_id": "SU-11",
+                "usage_text": "Kontor",
+                "number": "",
+                "description": "",
+                "project_uid": 14,
+                "devices": [
+                  "1.1.123"
+                ],
+                "spaces": {},
+                "functions": [
+                  "F-9"
+                ]
+              },
+              "Badrum": {
+                "type": "Room",
+                "identifier": "P-0628-0_BP-10",
+                "name": "Badrum",
+                "usage_id": "SU-7",
+                "usage_text": "Badrum",
+                "number": "",
+                "description": "",
+                "project_uid": 15,
+                "devices": [
+                  "1.1.101"
+                ],
+                "spaces": {},
+                "functions": [
+                  "F-8"
+                ]
+              },
+              "Hall": {
+                "type": "Room",
+                "identifier": "P-0628-0_BP-11",
+                "name": "Hall",
+                "usage_id": "SU-8",
+                "usage_text": "Hall",
+                "number": "",
+                "description": "",
+                "project_uid": 16,
+                "devices": [],
+                "spaces": {},
+                "functions": [
+                  "F-7"
+                ]
+              },
+              "Hobbyrum": {
+                "type": "Room",
+                "identifier": "P-0628-0_BP-14",
+                "name": "Hobbyrum",
+                "usage_id": "SU-13",
+                "usage_text": "Garage",
+                "number": "",
+                "description": "",
+                "project_uid": 108,
+                "devices": [
+                  "1.1.124",
+                  "1.1.125"
+                ],
+                "spaces": {
+                  "Huvudcentral": {
+                    "type": "DistributionBoard",
+                    "identifier": "P-0628-0_BP-15",
+                    "name": "Huvudcentral",
+                    "usage_id": null,
+                    "usage_text": "",
+                    "number": "",
+                    "description": "",
+                    "project_uid": 109,
+                    "devices": [
+                      "1.1.1",
+                      "1.1.2",
+                      "1.1.3",
+                      "1.1.4",
+                      "1.1.5",
+                      "1.1.6",
+                      "1.1.7"
+                    ],
+                    "spaces": {},
+                    "functions": []
+                  }
+                },
+                "functions": []
+              },
+              "Bibliotek": {
+                "type": "Room",
+                "identifier": "P-0628-0_BP-16",
+                "name": "Bibliotek",
+                "usage_id": null,
+                "usage_text": "",
+                "number": "",
+                "description": "",
+                "project_uid": 143,
+                "devices": [
+                  "1.1.105"
+                ],
+                "spaces": {},
+                "functions": [
+                  "F-10"
+                ]
+              },
+              "Uterum": {
+                "type": "Room",
+                "identifier": "P-0628-0_BP-17",
+                "name": "Uterum",
+                "usage_id": "SU-12",
+                "usage_text": "Sammanträdesrum",
+                "number": "",
+                "description": "",
+                "project_uid": 193,
+                "devices": [
+                  "1.1.127",
+                  "1.1.128"
+                ],
+                "spaces": {},
+                "functions": []
+              }
+            },
+            "functions": []
+          },
+          "Utomhus": {
+            "type": "Floor",
+            "identifier": "P-0628-0_BP-12",
+            "name": "Utomhus",
+            "usage_id": null,
+            "usage_text": "",
+            "number": "",
+            "description": "",
+            "project_uid": 17,
+            "devices": [],
+            "spaces": {
+              "Trädgård": {
+                "type": "Room",
+                "identifier": "P-0628-0_BP-13",
+                "name": "Trädgård",
+                "usage_id": "SU-15",
+                "usage_text": "Trädgård",
+                "number": "",
+                "description": "",
+                "project_uid": 18,
+                "devices": [
+                  "1.1.100"
+                ],
+                "spaces": {},
+                "functions": []
+              }
+            },
+            "functions": []
+          }
+        },
+        "functions": []
+      }
+    },
+    "functions": {
+      "F-1": {
+        "function_type": "FT-2",
+        "group_addresses": {},
+        "identifier": "F-1",
+        "name": "Takbelysning",
+        "project_uid": 25,
+        "space_id": "P-0628-0_BP-3",
+        "usage_text": "dimringsbar belysning"
+      },
+      "F-2": {
+        "function_type": "FT-2",
+        "group_addresses": {},
+        "identifier": "F-2",
+        "name": "Takbelysning",
+        "project_uid": 38,
+        "space_id": "P-0628-0_BP-4",
+        "usage_text": "dimringsbar belysning"
+      },
+      "F-3": {
+        "function_type": "FT-2",
+        "group_addresses": {},
+        "identifier": "F-3",
+        "name": "Takbelysning",
+        "project_uid": 47,
+        "space_id": "P-0628-0_BP-6",
+        "usage_text": "dimringsbar belysning"
+      },
+      "F-4": {
+        "function_type": "FT-2",
+        "group_addresses": {},
+        "identifier": "F-4",
+        "name": "Takbelysning",
+        "project_uid": 56,
+        "space_id": "P-0628-0_BP-8",
+        "usage_text": "dimringsbar belysning"
+      },
+      "F-9": {
+        "function_type": "FT-1",
+        "group_addresses": {
+          "1/1/0": {
+            "address": "1/1/0",
+            "name": "",
+            "project_uid": 180,
+            "role": "9a59fcff-8de3-4ec1-aa9c-9d7161d3c498"
+          },
+          "1/1/3": {
+            "address": "1/1/3",
+            "name": "",
+            "project_uid": 181,
+            "role": "329dd2a4-8801-4796-9a77-414d1b0420a8"
+          }
+        },
+        "identifier": "F-9",
+        "name": "Takbelysning",
+        "project_uid": 175,
+        "space_id": "P-0628-0_BP-9",
+        "usage_text": "omkopplingsbar belysning"
+      },
+      "F-8": {
+        "function_type": "FT-1",
+        "group_addresses": {
+          "1/3/0": {
+            "address": "1/3/0",
+            "name": "",
+            "project_uid": 172,
+            "role": "SwitchOnOff"
+          },
+          "1/3/1": {
+            "address": "1/3/1",
+            "name": "",
+            "project_uid": 174,
+            "role": "InfoOnOff"
+          }
+        },
+        "identifier": "F-8",
+        "name": "Takbelysning",
+        "project_uid": 169,
+        "space_id": "P-0628-0_BP-10",
+        "usage_text": "omkopplingsbar belysning"
+      },
+      "F-7": {
+        "function_type": "FT-2",
+        "group_addresses": {},
+        "identifier": "F-7",
+        "name": "Takbelysning",
+        "project_uid": 83,
+        "space_id": "P-0628-0_BP-11",
+        "usage_text": "dimringsbar belysning"
+      },
+      "F-10": {
+        "function_type": "FT-1",
+        "group_addresses": {
+          "1/1/20": {
+            "address": "1/1/20",
+            "name": "",
+            "project_uid": 189,
+            "role": "dfff2309-81f7-4727-b52f-60c804352af3"
+          },
+          "1/1/55": {
+            "address": "1/1/55",
+            "name": "",
+            "project_uid": 191,
+            "role": "97787e26-7329-4d02-814f-f276f078cd48"
+          }
+        },
+        "identifier": "F-10",
+        "name": "Takbelysning",
+        "project_uid": 182,
+        "space_id": "P-0628-0_BP-16",
+        "usage_text": "omkopplingsbar belysning"
+      }
+    }
+  }
+}

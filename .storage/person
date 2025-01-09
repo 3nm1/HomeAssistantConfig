@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "minor_version": 1,
+  "key": "person",
+  "data": {
+    "items": [
+      {
+        "id": "mikael_engstrom",
+        "name": "Mikael Engström",
+        "user_id": "4d84071e1964407a8255d23037741304",
+        "device_trackers": [
+          "device_tracker.mikaels_iphone"
+        ]
+      }
+    ]
+  }
+}
