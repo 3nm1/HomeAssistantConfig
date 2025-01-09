@@ -1,5 +1,5 @@
 # Example configuration.yaml entry
 sensor:
   platform: worxlandroid
-  host: 192.168.80.100
-  pin: 3014
+  host: !secret landroid_ip
+  pin:  !secret landroid_pin
