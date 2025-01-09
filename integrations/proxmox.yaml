@@ -1,0 +1,7 @@
+# Example configuration.yaml entry
+proxmoxve:
+  - host: 192.168.80.81
+    username: root
+    password: 38650Mbla
+    nodes:
+      - node: pve1
