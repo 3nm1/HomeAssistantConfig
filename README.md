@@ -49,7 +49,7 @@ SOFTWARE.
 [commits]: https://github.com/3nm1/HomeAssistantConfig/commits/master
 [contributors]: https://img.shields.io/github/contributors/3nm1/HomeAssistantConfig?style=for-the-badge
 [3nm1]: https://github.com/3nm1
-[actions-shield]: https://github.com/3nm1/HomeAssistantConfig/workflows/Home%20Assistant%20CI/badge.svg
+[actions-shield]: https://img.shields.io/github/actions/workflow/status/3nm1/HomeAssistantConfig/home-assistant.yml?style=for-the-badge
 [actions]: https://github.com/3nm1/HomeAssistantConfig/actions
 [home-assistant]: https://home-assistant.io
 [issue]: https://github.com/3nm1/HomeAssistantConfig/issues
