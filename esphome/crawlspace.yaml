@@ -11,7 +11,7 @@ substitutions:
 
 packages:
   <<: !include_dir_named common
-  board: !include boards/esp32dev.yaml
+  board: !include boards/olimex_esp32_devkitlipo.yaml
 
 # Example configuration entry
 sensor:

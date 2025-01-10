@@ -1,0 +1,9 @@
+---
+# Olimex ESP32-DevKit-LiPo
+#
+# An ESP32-based board with 4MB flash, Wi-Fi & Bluetooth
+#
+# hhttps://www.olimex.com/Products/IoT/ESP32/ESP32-DevKit-LiPo/open-source-hardware
+#
+esp32:
+  board: esp32-devkitlipo
