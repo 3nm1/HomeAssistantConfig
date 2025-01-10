@@ -1,0 +1,24 @@
+---
+# crawl space monitoring
+#
+substitutions:
+  label: esp01
+  slug: crawl space
+  name: crawl space
+  description: Monitor the crawl space 
+  encryption_key: !secret esphome_crawl_space_encryption_key
+  ota_password: !secret esphome_crawl_space_ota_password
+
+packages:
+  <<: !include_dir_named common
+  board: !include boards/esp32dev.yaml
+
+# Example configuration entry
+#sensor:
+#  - platform: dht
+#    pin: GPIO6
+#    temperature:
+#      name: "Krypgrund temperatur"
+#    humidity:
+#      name: "Krypgrund luftfuktighet"
+#    update_interval: 60s
