@@ -1,0 +1,13 @@
+# *** Givare ***
+- name: "Utetemperatur"
+  state_address: "0/2/0"
+  sync_state: every 60
+  type: temperature
+- name: "Innetemperatur entre"
+  state_address: "1/2/0"
+  sync_state: every 60
+  type: temperature
+- name: "Innetemperatur salen"
+  state_address: "1/2/63"
+  sync_state: every 60
+  type: temperature

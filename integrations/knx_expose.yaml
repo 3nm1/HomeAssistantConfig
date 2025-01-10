@@ -1,0 +1,9 @@
+- type: 'datetime'
+  address: '0/0/1'
+- type: 'time'
+  address: '0/0/2'
+- type: 'date'
+  address: '0/0/3'
+#- type: 'temperature'
+#  address: '8/1/30'
+#  entity_id: sensor.temperature_ressentie_couloir

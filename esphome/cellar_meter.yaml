@@ -13,7 +13,12 @@ packages:
   <<: !include_dir_named common
   board: !include boards/esp32dev.yaml
 
-status_led:
-  pin:
-    number: GPIO13
-    inverted: true
+# Example configuration entry
+sensor:
+  - platform: dht
+    pin: GPIO23
+    temperature:
+      name: "Krypgrund temperatur"
+    humidity:
+      name: "Krypgrund luftfuktighet"
+    update_interval: 60s
