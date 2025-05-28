@@ -1,0 +1,42 @@
+---
+# Ventilation genom övervakning av temperatur och hastighetsreglering av fläkt
+#
+substitutions:
+  label: esp01
+  slug: ventilation_serverrack
+  name: Ventilation serverrack
+  description: Övervakar temperatur och styr fläkthastighet
+  encryption_key: !secret esphome_vent01_encryption_key
+  ota_password: !secret esphome_vent01_ota_password
+
+packages:
+  <<: !include_dir_named common
+  board: !include boards/olimex_esp32_devkitlipo.yaml
+
+# Givare DHT22 för temperatur och luftfuktighet
+sensor:
+  - platform: dht
+    pin: GPIO13
+    temperature:
+      name: "Serverrack temperatur"
+      id: rumstemp
+    humidity:
+      name: "Serverrack luftfuktighet"
+    update_interval: 10s
+
+# AC-dimmer
+output:
+  - platform: ac_dimmer
+    id: dimmer1
+    gate_pin: GPIO18
+    zero_cross_pin:
+      number: GPIO19
+      mode:
+        input: true
+      inverted: yes
+
+# Fläkt-kontroll
+fan:
+  - platform: speed
+    output: dimmer1
+    name: "Fläkt frånluft från serverrack"
