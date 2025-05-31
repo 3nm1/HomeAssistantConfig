@@ -22,8 +22,10 @@ sensor:
       id: rumstemp
     humidity:
       name: "Serverrack luftfuktighet"
+      accuracy_decimals: 1
+    model: DHT22
     update_interval: 10s
-
+    
 # AC-dimmer
 output:
   - platform: ac_dimmer

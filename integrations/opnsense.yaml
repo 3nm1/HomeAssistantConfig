@@ -1,0 +1,4 @@
+opnsense:
+  url: https://192.168.80.1/api
+  api_secret: 5OepoqX+NIFpuyKv7DbjUIfdvd+owOV9qpy6WqonyBv/pgyGeb+2p0tDDSNWEcT1ii37fmd6SGSvto5R
+  api_key: 8reCS0oyDRl+oaABzj1quW1H51cmbpvi245kDTUEg8ygKo+n32s7GRsVfM4qnyxPE9q8oDPOOw3gB6yx
