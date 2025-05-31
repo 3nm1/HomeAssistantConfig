@@ -1,9 +1,9 @@
 knx:
 #  binary_sensor: !include knx_binary_sensor.yaml
-  switch: !include knx_switch.yaml
-  sensor: !include knx_sensor.yaml
+#  switch: !include knx_switch.yaml
+#  sensor: !include knx_sensor.yaml
 #  cover: !include knx_cover.yaml
 #  scene: !include knx_scene.yaml
-  light:  !include knx_light.yaml
+  light: !include knx_light.yaml
 #  climate: !include knx_climate.yaml
-  expose: !include knx_expose.yaml
+#  expose: !include knx_expose.yaml
