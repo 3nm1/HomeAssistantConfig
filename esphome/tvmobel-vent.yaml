@@ -1,0 +1,15 @@
+---
+# Tv möbel Ventilation
+#
+#
+substitutions:
+  label: esp04
+  slug: tv_ventilation
+  name: Tv Ventilation
+  description: Control the ventilation at my tv
+  api_password: !secret esphome_tv_ventilation_api_password
+  ota_password: !secret esphome_tv_ventilation_ota_password
+
+packages:
+  <<: !include_dir_named common
+  board: !include boards/olimex_esp32_devkitlipo.yaml

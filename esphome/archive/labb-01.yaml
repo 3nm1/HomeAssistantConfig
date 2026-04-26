@@ -1,0 +1,32 @@
+esphome:
+  name: labb-01
+  friendly_name: labb_01
+
+esp32:
+  board: esp32-c3-devkitm-1
+  framework:
+    type: arduino
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  encryption:
+    key: "7GiYPrGsNvYt+OKJrgi5NQT+YKvedgiqyqLTXDT0y7c="
+
+ota:
+  - platform: esphome
+    password: "2ab46ff48b304253b73106c35739bec1"
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Labb-01 Fallback Hotspot"
+    password: "uy3VoT6FUVNu"
+
+captive_portal:
+    

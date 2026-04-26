@@ -1,0 +1,16 @@
+---
+# ESP32 C3 Super Mini
+# The ESP32-C3 SuperMini is a tiny yet powerful development board built around the Espressif ESP32-C3 chip. 
+# With WiFi 802.11b/g/n and Bluetooth 5 (LE), it’s perfect for IoT projects that need reliable wireless connectivity. 
+#
+# Designed with a compact form factor, this board is easy to integrate into space-constrained projects. 
+# Its PCB antenna ensures stable wireless performance without needing an external antenna.
+
+# For ease of use, it includes a reset button and a bootloader mode button, making development and debugging smooth.
+# With its versatile interfaces (UART, I2C, SPI) and plenty of GPIOs, the ESP32-C3 SuperMini is a great choice for your next embedded project!
+#
+esp32:
+  variant: ESP32C3
+  board: esp32-c3-devkitm-1
+  framework:
+    type: arduino

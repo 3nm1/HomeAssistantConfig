@@ -7,11 +7,14 @@
 #
 # https://esphome.io/components/api.html
 #
+substitutions:
+  device_api_key: !secret esphome_api_password
+
 api:
   id: component_api
+  #password: "${api_password}"
   encryption:
-    key: "${encryption_key}"
-
+    key: "${device_api_key}"
   # Made this a bit longer, as in my case...
   # I F-things up from time to time, this gives me time to fix ;)
   reboot_timeout: 30min

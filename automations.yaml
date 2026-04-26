@@ -1,13 +1,43 @@
----
-# This file is used by the automations editor
-# in the Home Assistant frontend.
-#
-# I personally do not use it, mainly because I like doing this in YAML.
-# However, from time to time, it is helpful to click a bit and see
-# what the frontend makes of it.
-#
-# This file must exist for the frontend Automation editor to work.
-# Hence, it is here, empty.
-#
-# If you are looking for my automations: See automations folder.
-[]
+- id: '1748847589440'
+  alias: 'Alarm: Trigger Alarm when Armed Away'
+  description: ''
+  triggers:
+  - trigger: state
+    entity_id:
+    - binary_sensor.alarm_motion_sensors
+    to: 'on'
+  conditions:
+  - condition: state
+    entity_id: alarm_control_panel.home_alarm
+    state: armed_away
+  actions:
+  - action: alarm_control_panel.alarm_trigger
+    target:
+      entity_id: alarm_control_panel.home_alarm
+    data: {}
+  mode: single
+- id: '1748848067532'
+  alias: Alarm_1
+  description: ''
+  triggers:
+  - trigger: state
+    entity_id:
+    - binary_sensor.alarm_motion_sensors
+    to: 'on'
+  conditions:
+  - condition: state
+    entity_id: alarm_control_panel.home_alarm
+    state: armed_away
+  actions: []
+  mode: single
+- id: '1748849182152'
+  alias: Ny automatisering
+  description: ''
+  triggers:
+  - trigger: state
+    entity_id:
+    - binary_sensor.alarm_motion_sensors
+    to: 'on'
+  conditions: []
+  actions: []
+  mode: single

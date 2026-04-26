@@ -1,0 +1,32 @@
+esphome:
+  name: la
+  friendly_name: La
+
+esp32:
+  board: esp32-c3-devkitm-1
+  framework:
+    type: arduino
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  encryption:
+    key: "pPgNoGo6XAehgiC4UOHCyxUMay5rY7l58RObwX4C5p0="
+
+ota:
+  - platform: esphome
+    password: "01162afde45e6346ddfbf56c6504e01f"
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "La Fallback Hotspot"
+    password: "d7Bu3tIehpjs"
+
+captive_portal:
+    

@@ -1,0 +1,38 @@
+---
+# Ventilation i serverrack
+#
+#
+substitutions:
+  label: esp03
+  slug: serverrack_ventilation
+  name: Serverrack Ventilation
+  description: Styr ventilationen i serverracket
+  api_password: !secret esphome_server_ventilation_api_password
+  ota_password: !secret esphome_server_ventilation_ota_password
+  wifi_out: 8.5dB
+
+packages:
+  <<: !include_dir_named common
+  board: !include boards/esp32_c3_dev.yaml
+
+# Example configuration entry
+
+output:
+  - platform: ac_dimmer
+    id: dimmer1
+    gate_pin: GPIO0
+    zero_cross_pin:
+      number: GPIO1
+      mode:
+        input: true
+      inverted: yes
+
+
+light:
+  - platform: status_led
+    name: "Switch state"
+    pin: GPIO8
+    
+  - platform: monochromatic
+    output: dimmer1
+    name: Dimmable Light

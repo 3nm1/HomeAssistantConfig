@@ -1,13 +1,44 @@
----
-# This file is used by the scripts editor
-# in the Home Assistant frontend.
-#
-# I personally do not use it, mainly because I like doing this in YAML.
-# However, from time to time, it is helpful to click a bit and see
-# what the frontend makes of it.
-#
-# This file must exist for the frontend scripts editor to work.
-# Hence, it is here, empty.
-#
-# If you are looking for my scripts: See scripts folder.
-{}
+siren:
+  sequence:
+  - action: media_player.volume_set
+    metadata: {}
+    data:
+      volume_level: 1
+    target:
+      entity_id: media_player.vardagsrum
+  - repeat:
+      sequence:
+      - action: media_player.play_media
+        metadata:
+          title: mixkit-alert-alarm-1005.wav
+          thumbnail:
+          media_class: music
+          children_media_class:
+          navigateIds:
+          - {}
+          - media_content_type: app
+            media_content_id: media-source://media_source
+        data:
+          media_content_id: media-source://media_source/local/mixkit-alert-alarm-1005.wav
+          media_content_type: audio/x-wav
+        target:
+          entity_id: media_player.vardagsrum
+      - delay:
+          hours: 0
+          minutes: 0
+          seconds: 6
+          milliseconds: 0
+      while:
+      - condition: state
+        entity_id: alarm_control_panel.alarmo
+        state: triggered
+      - condition: and
+        conditions:
+        - condition: not
+          conditions:
+          - condition: state
+            entity_id: alarm_control_panel.alarmo
+            state: disarmed
+  alias: Siren
+  description: ''
+  mode: restart
